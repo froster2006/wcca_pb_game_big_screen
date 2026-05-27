@@ -1,0 +1,101 @@
+groupround	Match	Team 1 Player A	Team 1 Player B	Team 2 Player A	Team 2 Player B	Score T1	Score T2
+A1	M1	A1 - Jingyan	A18 - 徐步江	A2 - 赵建勇	A17 - 杨芳	2	5
+A1	M2	A3 - Dean Hunter	A5 - 王丽	A4 - Jason	A28 - 王雅峰	4	6
+A1	M3	A6 - 郭庆	A33 - Polly	A7 - 王乃军	A21 - 阿米 缪敏	3	8
+A1	M4	A8 - Larry	A22 - 邢世杰	A9 - 张卫明	A16 - 唐仪亮	4	5
+A1	M5	A10 - 小李	A25 - Andy Zeng	A11 - Jessie	A12 - 叶政	6	8
+A1	M6	A13 - Jane Chen	A15 - 司丽蓉	A14 - Shirley	A32 - 郑瑛	5	6
+A1	M7	A19 - 发枚	A34 - 王轶男	A20 - Roy Li	A36 - 魏菲	3	6
+A1	M8	A23 - 王春明	A29 - Helen	A31 - Bob	A35 - 冬艳	6	6
+A1	M9	A24 - 陈天仪	A26 - Coconut 小椰	A27 - 毛毛	A30 - Simon Huang	7	6
+A2	M10	A7 - 王乃军	A28 - 王雅峰	A6 - 郭庆	A34 - 王轶男	4	8
+A2	M11	A15 - 司丽蓉	A21 - 阿米 缪敏	A5 - 王丽	A31 - Bob	3	6
+A2	M12	A9 - 张卫明	A20 - Roy Li	A2 - 赵建勇	A32 - 郑瑛	4	7
+A2	M13	A10 - 小李	A22 - 邢世杰	A1 - Jingyan	A35 - 冬艳	6	6
+A2	M14	A8 - Larry	A33 - Polly	A3 - Dean Hunter	A4 - Jason	2	5
+A2	M15	A29 - Helen	A30 - Simon Huang	A11 - Jessie	A17 - 杨芳	3	8
+A2	M16	A23 - 王春明	A26 - Coconut 小椰	A12 - 叶政	A13 - Jane Chen	7	6
+A2	M17	A19 - 发枚	A24 - 陈天仪	A14 - Shirley	A25 - Andy Zeng	7	7
+A2	M18	A18 - 徐步江	A36 - 魏菲	A16 - 唐仪亮	A27 - 毛毛	6	7
+A3	M19	A33 - Polly	A34 - 王轶男	A9 - 张卫明	A10 - 小李	4	8
+A3	M20	A22 - 邢世杰	A30 - Simon Huang	A8 - Larry	A14 - Shirley	5	5
+A3	M21	A27 - 毛毛	A36 - 魏菲	A15 - 司丽蓉	A28 - 王雅峰	2	5
+A3	M22	A7 - 王乃军	A29 - Helen	A1 - Jingyan	A12 - 叶政	6	5
+A3	M23	A20 - Roy Li	A25 - Andy Zeng	A6 - 郭庆	A26 - Coconut 小椰	6	6
+A3	M24	A13 - Jane Chen	A35 - 冬艳	A3 - Dean Hunter	A31 - Bob	7	8
+A3	M25	A23 - 王春明	A24 - 陈天仪	A2 - 赵建勇	A4 - Jason	7	5
+A3	M26	A18 - 徐步江	A19 - 发枚	A5 - 王丽	A11 - Jessie	6	6
+A3	M27	A21 - 阿米 缪敏	A32 - 郑瑛	A16 - 唐仪亮	A17 - 杨芳	6	5
+A4	M28	A21 - 阿米 缪敏	A35 - 冬艳	A12 - 叶政	A30 - Simon Huang	7	6
+A4	M29	A19 - 发枚	A26 - Coconut 小椰	A22 - 邢世杰	A34 - 王轶男	7	8
+A4	M30	A15 - 司丽蓉	A20 - Roy Li	A13 - Jane Chen	A33 - Polly	2	6
+A4	M31	A9 - 张卫明	A24 - 陈天仪	A18 - 徐步江	A28 - 王雅峰	3	8
+A4	M32	A10 - 小李	A32 - 郑瑛	A8 - Larry	A29 - Helen	4	7
+A4	M33	A1 - Jingyan	A25 - Andy Zeng	A16 - 唐仪亮	A36 - 魏菲	4	5
+A4	M34	A7 - 王乃军	A17 - 杨芳	A4 - Jason	A27 - 毛毛	4	7
+A4	M35	A5 - 王丽	A23 - 王春明	A6 - 郭庆	A11 - Jessie	4	6
+A4	M36	A2 - 赵建勇	A31 - Bob	A3 - Dean Hunter	A14 - Shirley	4	8
+B1	M1	B1 - Tina	B18 - 马小吾	B2 - liren	B17 - 毕咏梅	7	6
+B1	M2	B3 - yufei	B5 - 红柳	B4 - William Tiong	B28 - Lisa Li	3	5
+B1	M3	B6 - 刘俐平	B33 - 高清代	B7 - 王孟毅	B21 - 赵大嫚	7	8
+B1	M4	B8 - 肖凌闻	B22 - 高清	B9 - May Xiao	B16 - 罗野	3	7
+B1	M5	B10 - 焦冬	B25 - Wendy Gao	B11 - 夏桂柏	B12 - 赵伟英	5	5
+B1	M6	B13 - Cathy	B15 - Jenny	B14 - 雅茹	B32 - 卓安	6	7
+B1	M7	B19 - 云儿	B34 - 张立成	B20 - 李敏	B36 - 李咏梅	4	5
+B1	M8	B23 - 孙燕玲	B29 - Wing	B31 - 宁雅蕊	B35 - Yanjun Qian	4	7
+B1	M9	B24 - 高超	B26 - 李燕	B27 - 霍继霞	B30 - Lily Sun	7	8
+B2	M10	B7 - 王孟毅	B28 - Lisa Li	B6 - 刘俐平	B34 - 张立成	5	5
+B2	M11	B15 - Jenny	B21 - 赵大嫚	B5 - 红柳	B31 - 宁雅蕊	2	7
+B2	M12	B9 - May Xiao	B20 - 李敏	B2 - liren	B32 - 卓安	6	7
+B2	M13	B10 - 焦冬	B22 - 高清	B1 - Tina	B35 - Yanjun Qian	3	8
+B2	M14	B8 - 肖凌闻	B33 - 高清代	B3 - yufei	B4 - William Tiong	5	6
+B2	M15	B29 - Wing	B30 - Lily Sun	B11 - 夏桂柏	B17 - 毕咏梅	6	6
+B2	M16	B23 - 孙燕玲	B26 - 李燕	B12 - 赵伟英	B13 - Cathy	8	7
+B2	M17	B19 - 云儿	B24 - 高超	B14 - 雅茹	B25 - Wendy Gao	5	6
+B2	M18	B18 - 马小吾	B36 - 李咏梅	B16 - 罗野	B27 - 霍继霞	7	5
+B3	M19	B33 - 高清代	B34 - 张立成	B9 - May Xiao	B10 - 焦冬	4	6
+B3	M20	B22 - 高清	B30 - Lily Sun	B8 - 肖凌闻	B14 - 雅茹	7	7
+B3	M21	B27 - 霍继霞	B36 - 李咏梅	B15 - Jenny	B28 - Lisa Li	7	6
+B3	M22	B7 - 王孟毅	B29 - Wing	B1 - Tina	B12 - 赵伟英	4	8
+B3	M23	B20 - 李敏	B25 - Wendy Gao	B6 - 刘俐平	B26 - 李燕	7	5
+B3	M24	B13 - Cathy	B35 - Yanjun Qian	B3 - yufei	B31 - 宁雅蕊	4	7
+B3	M25	B23 - 孙燕玲	B24 - 高超	B2 - liren	B4 - William Tiong	3	6
+B3	M26	B18 - 马小吾	B19 - 云儿	B5 - 红柳	B11 - 夏桂柏	4	5
+B3	M27	B21 - 赵大嫚	B32 - 卓安	B16 - 罗野	B17 - 毕咏梅	7	5
+B4	M28	B21 - 赵大嫚	B35 - Yanjun Qian	B12 - 赵伟英	B30 - Lily Sun	8	7
+B4	M29	B19 - 云儿	B26 - 李燕	B22 - 高清	B34 - 张立成	4	8
+B4	M30	B15 - Jenny	B20 - 李敏	B13 - Cathy	B33 - 高清代	7	6
+B4	M31	B9 - May Xiao	B24 - 高超	B18 - 马小吾	B28 - Lisa Li	6	5
+B4	M32	B10 - 焦冬	B32 - 卓安	B8 - 肖凌闻	B29 - Wing	2	6
+B4	M33	B1 - Tina	B25 - Wendy Gao	B16 - 罗野	B36 - 李咏梅	6	7
+B4	M34	B7 - 王孟毅	B17 - 毕咏梅	B4 - William Tiong	B27 - 霍继霞	4	8
+B4	M35	B5 - 红柳	B23 - 孙燕玲	B6 - 刘俐平	B11 - 夏桂柏	8	6
+B4	M36	B2 - liren	B31 - 宁雅蕊	B3 - yufei	B14 - 雅茹	8	7
+KOA_8	M37	A17 - 杨芳	A23 - 王春明	A11 - Jessie	A27 - 毛毛	8	11
+KOA_8	M38	A25 - Andy Zeng	A20 - Roy Li	A34 - 王轶男	A9 - 张卫明	9	11
+KOA_8	M39	A4 - Jason	A5 - 王丽	A12 - 叶政	A31 - Bob	11	5
+KOA_8	M40	A10 - 小李	A22 - 邢世杰	A24 - 陈天仪	A33 - Polly	4	11
+KOA_8	M41	A32 - 郑瑛	A16 - 唐仪亮	A29 - Helen	A21 - 阿米 缪敏	11	8
+KOA_8	M42	A36 - 魏菲	A3 - Dean Hunter	A14 - Shirley	A28 - 王雅峰	9	11
+KOA_4	M43	A7 - 王乃军	A2 - 赵建勇	A14 - Shirley	A28 - 王雅峰	9	11
+KOA_4	M44	A6 - 郭庆	A1 - Jingyan	A32 - 郑瑛	A16 - 唐仪亮	11	9
+KOA_4	M45	A11 - Jessie	A27 - 毛毛	A24 - 陈天仪	A33 - Polly	9	11
+KOA_4	M46	A34 - 王轶男	A9 - 张卫明	A4 - Jason	A5 - 王丽	9	11
+KOA_2	M47	A14 - Shirley	A28 - 王雅峰	A4 - Jason	A5 - 王丽	7	12
+KOA_2	M48	A6 - 郭庆	A1 - Jingyan	A24 - 陈天仪	A33 - Polly	9	12
+KOA_Bronz	M49	A14 - Shirley	A28 - 王雅峰	A6 - 郭庆	A1 - Jingyan		
+KOA_Gold	M50	A4 - Jason	A5 - 王丽	A24 - 陈天仪	A33 - Polly		
+KOB_8	M51	B35 - Yanjun Qian	B1 - Tina	B15 - Jenny	B5 - 红柳	11	9
+KOB_8	M52	B30 - Lily Sun	B23 - 孙燕玲	B34 - 张立成	B22 - 高清	9	11
+KOB_8	M53	B32 - 卓安	B10 - 焦冬	B33 - 高清代	B9 - May Xiao	11	5
+KOB_8	M54	B16 - 罗野	B26 - 李燕	B4 - William Tiong	B11 - 夏桂柏	4	11
+KOB_8	M55	B28 - Lisa Li	B31 - 宁雅蕊	B25 - Wendy Gao	B27 - 霍继霞	5	11
+KOB_8	M56	B2 - liren	B18 - 马小吾	B24 - 高超	B6 - 刘俐平	6	11
+KOB_4	M57	B19 - 云儿	B17 - 毕咏梅	B24 - 高超	B6 - 刘俐平	11	9
+KOB_4	M58	B13 - Cathy	B12 - 赵伟英	B25 - Wendy Gao	B27 - 霍继霞	11	9
+KOB_4	M59	B35 - Yanjun Qian	B1 - Tina	B4 - William Tiong	B11 - 夏桂柏	9	11
+KOB_4	M60	B34 - 张立成	B22 - 高清	B32 - 卓安	B10 - 焦冬	9	11
+KOB_2	M61	B19 - 云儿	B17 - 毕咏梅	B32 - 卓安	B10 - 焦冬	9	11
+KOB_2	M62	B13 - Cathy	B12 - 赵伟英	B4 - William Tiong	B11 - 夏桂柏	11	9
+KOB_Bronz	M63	B19 - 云儿	B17 - 毕咏梅	B4 - William Tiong	B11 - 夏桂柏		
+KOB_Gold	M64	B32 - 卓安	B10 - 焦冬	B13 - Cathy	B12 - 赵伟英		

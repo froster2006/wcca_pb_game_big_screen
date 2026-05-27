@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 整页切换控制 */
+.page {
+  display: none;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+body {
+  /* 超鲜艳渐变底色 */
+  background: linear-gradient(135deg, #111 0%, #222 100%);
+  color: #fff;
+  font-family: -apple-system, BlinkMacFont, "Segoe UI", Roboto, sans-serif;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 900;
+  text-align: center;
+  margin: 2rem 0 3rem;
+  /* 超亮渐变标题 */
+  background: linear-gradient(90deg, #FF3C6C, #FFC107, #00E5FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 15px rgba(255,255,255,0.3);
+  letter-spacing: 2px;
+}
+
+.table-wrap {
+  width: 92%;
+  margin: 0 auto;
+  background: rgba(20, 20, 40, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 24px;
+  padding: 30px;
+  box-shadow: 0 0 30px rgba(255, 60, 108, 0.2);
+  border: 2px solid rgba(255,255,255,0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* 超鲜艳表头 */
+th {
+  font-size: 34px;
+  padding: 24px;
+  background: linear-gradient(90deg, #FF3C6C, #FF5E57);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(255,60,108,0.3);
+}
+
+td {
+  font-size: 32px;
+  padding: 22px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* 高亮隔行色 */
+tbody tr:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.05);
+}
+tbody tr:nth-child(even) {
+  background: rgba(255, 60, 108, 0.05);
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+
+/* ========================================================================== */
+/* ✅ 只修改【比赛表格】的比分列字体为亮黄色，背景不变，排名表完全不受影响 */
+/* ========================================================================== */
+#groupARound1 td:nth-child(3),
+#groupARound2 td:nth-child(3),
+#groupARound3 td:nth-child(3),
+#groupARound4 td:nth-child(3),
+#groupBRound1 td:nth-child(3),
+#groupBRound2 td:nth-child(3),
+#groupBRound3 td:nth-child(3),
+#KOA_8 td:nth-child(3),
+#KOA_4 td:nth-child(3),
+#KOA_2 td:nth-child(3),
+#KOA_Bronz td:nth-child(3),
+#KOA_Gold td:nth-child(3),
+#KOB_8 td:nth-child(3),
+#KOB_4 td:nth-child(3),
+#KOB_2 td:nth-child(3),
+#KOB_Bronz td:nth-child(3),
+#KOB_Gold td:nth-child(3)
+{
+    color: #FFD700 !important; /* 亮黄色字体 */
+}
+
+/* 底部翻页按钮 */
+.page-controls {
+  position: fixed;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  z-index: 9999;
+}
+
+.page-controls button {
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid #ffd700;
+  color: #ffd700;
+  font-size: 28px;
+  padding: 16px 32px;
+  border-radius: 16px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+}
+
+.page-controls button:hover {
+  background: #ffd700;
+  color: #000;
+}

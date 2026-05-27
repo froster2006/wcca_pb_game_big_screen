@@ -1,0 +1,73 @@
+group	ranking	Player	Total Points (Sorted)	Net Score
+A	1	A7 - 王乃军	36	9
+A	2	A2 - 赵建勇	33	6
+A	3	A6 - 郭庆	23	-13
+A	4	A1 - Jingyan	22	-14
+A	5	A17 - 杨芳	18	9
+A	6	A23 - 王春明	18	5
+A	7	A25 - Andy Zeng	15	3
+A	8	A20 - Roy Li	14	2
+A	9	A4 - Jason	13	-5
+A	10	A5 - 王丽	9	4
+A	11	A10 - 小李	9	4
+A	12	A22 - 邢世杰	9	4
+A	13	A32 - 郑瑛	9	4
+A	14	A16 - 唐仪亮	9	3
+A	15	A36 - 魏菲	9	3
+A	16	A3 - Dean Hunter	9	2
+A	17	A14 - Shirley	9	2
+A	18	A28 - 王雅峰	9	2
+A	19	A29 - Helen	9	2
+A	20	A21 - 阿米 缪敏	9	1
+A	21	A24 - 陈天仪	9	1
+A	22	A33 - Polly	8	-1
+A	23	A12 - 叶政	7	-2
+A	24	A31 - Bob	7	-2
+A	25	A34 - 王轶男	7	-2
+A	26	A9 - 张卫明	5	-4
+A	27	A11 - Jessie	5	-4
+A	28	A27 - 毛毛	5	-4
+A	29	A35 - 冬艳	5	-4
+A	30	A18 - 徐步江	4	-5
+A	31	A26 - Coconut 小椰	3	-6
+A	32	A8 - Larry	0	0
+A	33	A13 - Jane Chen	0	0
+A	34	A15 - 司丽蓉	0	0
+A	35	A19 - 发枚	0	0
+A	36	A30 - Simon Huang	0	0
+B	1	B19 - 云儿	36	19
+B	2	B17 - 毕咏梅	36	9
+B	3	B13 - Cathy	35	14
+B	4	B12 - 赵伟英	35	10
+B	5	B35 - Yanjun Qian	34	8
+B	6	B1 - Tina	33	7
+B	7	B30 - Lily Sun	33	5
+B	8	B23 - 孙燕玲	32	7
+B	9	B32 - 卓安	32	6
+B	10	B10 - 焦冬	30	5
+B	11	B16 - 罗野	30	5
+B	12	B26 - 李燕	30	1
+B	13	B28 - Lisa Li	29	11
+B	14	B31 - 宁雅蕊	29	10
+B	15	B2 - liren	29	6
+B	16	B18 - 马小吾	29	6
+B	17	B24 - 高超	29	3
+B	18	B6 - 刘俐平	28	5
+B	19	B25 - Wendy Gao	27	2
+B	20	B27 - 霍继霞	27	-3
+B	21	B4 - William Tiong	26	2
+B	22	B11 - 夏桂柏	26	-1
+B	23	B33 - 高清代	25	1
+B	24	B9 - May Xiao	25	-1
+B	25	B34 - 张立成	25	-1
+B	26	B22 - 高清	25	-4
+B	27	B15 - Jenny	23	-3
+B	28	B5 - 红柳	22	-4
+B	29	B20 - 李敏	22	-9
+B	30	B21 - 赵大嫚	21	-14
+B	31	B29 - Wing	20	-16
+B	32	B7 - 王孟毅	19	-14
+B	33	B3 - yufei	18	-12
+B	34	B14 - 雅茹	18	-18
+B	35	B36 - 李咏梅	16	-20
+B	36	B8 - 肖凌闻	14	-22

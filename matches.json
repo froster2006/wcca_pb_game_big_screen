@@ -1,0 +1,1002 @@
+[
+  {
+    "groupround": "A1",
+    "Match": "M1",
+    "Team 1 Player A": "A1 - Jingyan",
+    "Team 1 Player B": "A18 - 徐步江",
+    "Team 2 Player A": "A2 - 赵建勇",
+    "Team 2 Player B": "A17 - 杨芳",
+    "Score T1": "2",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "A1",
+    "Match": "M2",
+    "Team 1 Player A": "A3 - Dean Hunter",
+    "Team 1 Player B": "A5 - 王丽",
+    "Team 2 Player A": "A4 - Jason",
+    "Team 2 Player B": "A28 - 王雅峰",
+    "Score T1": "4",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "A1",
+    "Match": "M3",
+    "Team 1 Player A": "A6 - 郭庆",
+    "Team 1 Player B": "A33 - Polly",
+    "Team 2 Player A": "A7 - 王乃军",
+    "Team 2 Player B": "A21 - 阿米 缪敏",
+    "Score T1": "3",
+    "Score T2": "8"
+  },
+  {
+    "groupround": "A1",
+    "Match": "M4",
+    "Team 1 Player A": "A8 - Larry",
+    "Team 1 Player B": "A22 - 邢世杰",
+    "Team 2 Player A": "A9 - 张卫明",
+    "Team 2 Player B": "A16 - 唐仪亮",
+    "Score T1": "4",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "A1",
+    "Match": "M5",
+    "Team 1 Player A": "A10 - 小李",
+    "Team 1 Player B": "A25 - Andy Zeng",
+    "Team 2 Player A": "A11 - Jessie",
+    "Team 2 Player B": "A12 - 叶政",
+    "Score T1": "6",
+    "Score T2": "8"
+  },
+  {
+    "groupround": "A1",
+    "Match": "M6",
+    "Team 1 Player A": "A13 - Jane Chen",
+    "Team 1 Player B": "A15 - 司丽蓉",
+    "Team 2 Player A": "A14 - Shirley",
+    "Team 2 Player B": "A32 - 郑瑛",
+    "Score T1": "5",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "A1",
+    "Match": "M7",
+    "Team 1 Player A": "A19 - 发枚",
+    "Team 1 Player B": "A34 - 王轶男",
+    "Team 2 Player A": "A20 - Roy Li",
+    "Team 2 Player B": "A36 - 魏菲",
+    "Score T1": "3",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "A1",
+    "Match": "M8",
+    "Team 1 Player A": "A23 - 王春明",
+    "Team 1 Player B": "A29 - Helen",
+    "Team 2 Player A": "A31 - Bob",
+    "Team 2 Player B": "A35 - 冬艳",
+    "Score T1": "6",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "A1",
+    "Match": "M9",
+    "Team 1 Player A": "A24 - 陈天仪",
+    "Team 1 Player B": "A26 - Coconut 小椰",
+    "Team 2 Player A": "A27 - 毛毛",
+    "Team 2 Player B": "A30 - Simon Huang",
+    "Score T1": "7",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "A2",
+    "Match": "M10",
+    "Team 1 Player A": "A7 - 王乃军",
+    "Team 1 Player B": "A28 - 王雅峰",
+    "Team 2 Player A": "A6 - 郭庆",
+    "Team 2 Player B": "A34 - 王轶男",
+    "Score T1": "4",
+    "Score T2": "8"
+  },
+  {
+    "groupround": "A2",
+    "Match": "M11",
+    "Team 1 Player A": "A15 - 司丽蓉",
+    "Team 1 Player B": "A21 - 阿米 缪敏",
+    "Team 2 Player A": "A5 - 王丽",
+    "Team 2 Player B": "A31 - Bob",
+    "Score T1": "3",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "A2",
+    "Match": "M12",
+    "Team 1 Player A": "A9 - 张卫明",
+    "Team 1 Player B": "A20 - Roy Li",
+    "Team 2 Player A": "A2 - 赵建勇",
+    "Team 2 Player B": "A32 - 郑瑛",
+    "Score T1": "4",
+    "Score T2": "7"
+  },
+  {
+    "groupround": "A2",
+    "Match": "M13",
+    "Team 1 Player A": "A10 - 小李",
+    "Team 1 Player B": "A22 - 邢世杰",
+    "Team 2 Player A": "A1 - Jingyan",
+    "Team 2 Player B": "A35 - 冬艳",
+    "Score T1": "6",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "A2",
+    "Match": "M14",
+    "Team 1 Player A": "A8 - Larry",
+    "Team 1 Player B": "A33 - Polly",
+    "Team 2 Player A": "A3 - Dean Hunter",
+    "Team 2 Player B": "A4 - Jason",
+    "Score T1": "2",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "A2",
+    "Match": "M15",
+    "Team 1 Player A": "A29 - Helen",
+    "Team 1 Player B": "A30 - Simon Huang",
+    "Team 2 Player A": "A11 - Jessie",
+    "Team 2 Player B": "A17 - 杨芳",
+    "Score T1": "3",
+    "Score T2": "8"
+  },
+  {
+    "groupround": "A2",
+    "Match": "M16",
+    "Team 1 Player A": "A23 - 王春明",
+    "Team 1 Player B": "A26 - Coconut 小椰",
+    "Team 2 Player A": "A12 - 叶政",
+    "Team 2 Player B": "A13 - Jane Chen",
+    "Score T1": "7",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "A2",
+    "Match": "M17",
+    "Team 1 Player A": "A19 - 发枚",
+    "Team 1 Player B": "A24 - 陈天仪",
+    "Team 2 Player A": "A14 - Shirley",
+    "Team 2 Player B": "A25 - Andy Zeng",
+    "Score T1": "7",
+    "Score T2": "7"
+  },
+  {
+    "groupround": "A2",
+    "Match": "M18",
+    "Team 1 Player A": "A18 - 徐步江",
+    "Team 1 Player B": "A36 - 魏菲",
+    "Team 2 Player A": "A16 - 唐仪亮",
+    "Team 2 Player B": "A27 - 毛毛",
+    "Score T1": "6",
+    "Score T2": "7"
+  },
+  {
+    "groupround": "A3",
+    "Match": "M19",
+    "Team 1 Player A": "A33 - Polly",
+    "Team 1 Player B": "A34 - 王轶男",
+    "Team 2 Player A": "A9 - 张卫明",
+    "Team 2 Player B": "A10 - 小李",
+    "Score T1": "4",
+    "Score T2": "8"
+  },
+  {
+    "groupround": "A3",
+    "Match": "M20",
+    "Team 1 Player A": "A22 - 邢世杰",
+    "Team 1 Player B": "A30 - Simon Huang",
+    "Team 2 Player A": "A8 - Larry",
+    "Team 2 Player B": "A14 - Shirley",
+    "Score T1": "5",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "A3",
+    "Match": "M21",
+    "Team 1 Player A": "A27 - 毛毛",
+    "Team 1 Player B": "A36 - 魏菲",
+    "Team 2 Player A": "A15 - 司丽蓉",
+    "Team 2 Player B": "A28 - 王雅峰",
+    "Score T1": "2",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "A3",
+    "Match": "M22",
+    "Team 1 Player A": "A7 - 王乃军",
+    "Team 1 Player B": "A29 - Helen",
+    "Team 2 Player A": "A1 - Jingyan",
+    "Team 2 Player B": "A12 - 叶政",
+    "Score T1": "6",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "A3",
+    "Match": "M23",
+    "Team 1 Player A": "A20 - Roy Li",
+    "Team 1 Player B": "A25 - Andy Zeng",
+    "Team 2 Player A": "A6 - 郭庆",
+    "Team 2 Player B": "A26 - Coconut 小椰",
+    "Score T1": "6",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "A3",
+    "Match": "M24",
+    "Team 1 Player A": "A13 - Jane Chen",
+    "Team 1 Player B": "A35 - 冬艳",
+    "Team 2 Player A": "A3 - Dean Hunter",
+    "Team 2 Player B": "A31 - Bob",
+    "Score T1": "7",
+    "Score T2": "8"
+  },
+  {
+    "groupround": "A3",
+    "Match": "M25",
+    "Team 1 Player A": "A23 - 王春明",
+    "Team 1 Player B": "A24 - 陈天仪",
+    "Team 2 Player A": "A2 - 赵建勇",
+    "Team 2 Player B": "A4 - Jason",
+    "Score T1": "7",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "A3",
+    "Match": "M26",
+    "Team 1 Player A": "A18 - 徐步江",
+    "Team 1 Player B": "A19 - 发枚",
+    "Team 2 Player A": "A5 - 王丽",
+    "Team 2 Player B": "A11 - Jessie",
+    "Score T1": "6",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "A3",
+    "Match": "M27",
+    "Team 1 Player A": "A21 - 阿米 缪敏",
+    "Team 1 Player B": "A32 - 郑瑛",
+    "Team 2 Player A": "A16 - 唐仪亮",
+    "Team 2 Player B": "A17 - 杨芳",
+    "Score T1": "6",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "A4",
+    "Match": "M28",
+    "Team 1 Player A": "A21 - 阿米 缪敏",
+    "Team 1 Player B": "A35 - 冬艳",
+    "Team 2 Player A": "A12 - 叶政",
+    "Team 2 Player B": "A30 - Simon Huang",
+    "Score T1": "7",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "A4",
+    "Match": "M29",
+    "Team 1 Player A": "A19 - 发枚",
+    "Team 1 Player B": "A26 - Coconut 小椰",
+    "Team 2 Player A": "A22 - 邢世杰",
+    "Team 2 Player B": "A34 - 王轶男",
+    "Score T1": "7",
+    "Score T2": "8"
+  },
+  {
+    "groupround": "A4",
+    "Match": "M30",
+    "Team 1 Player A": "A15 - 司丽蓉",
+    "Team 1 Player B": "A20 - Roy Li",
+    "Team 2 Player A": "A13 - Jane Chen",
+    "Team 2 Player B": "A33 - Polly",
+    "Score T1": "2",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "A4",
+    "Match": "M31",
+    "Team 1 Player A": "A9 - 张卫明",
+    "Team 1 Player B": "A24 - 陈天仪",
+    "Team 2 Player A": "A18 - 徐步江",
+    "Team 2 Player B": "A28 - 王雅峰",
+    "Score T1": "3",
+    "Score T2": "8"
+  },
+  {
+    "groupround": "A4",
+    "Match": "M32",
+    "Team 1 Player A": "A10 - 小李",
+    "Team 1 Player B": "A32 - 郑瑛",
+    "Team 2 Player A": "A8 - Larry",
+    "Team 2 Player B": "A29 - Helen",
+    "Score T1": "4",
+    "Score T2": "7"
+  },
+  {
+    "groupround": "A4",
+    "Match": "M33",
+    "Team 1 Player A": "A1 - Jingyan",
+    "Team 1 Player B": "A25 - Andy Zeng",
+    "Team 2 Player A": "A16 - 唐仪亮",
+    "Team 2 Player B": "A36 - 魏菲",
+    "Score T1": "4",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "A4",
+    "Match": "M34",
+    "Team 1 Player A": "A7 - 王乃军",
+    "Team 1 Player B": "A17 - 杨芳",
+    "Team 2 Player A": "A4 - Jason",
+    "Team 2 Player B": "A27 - 毛毛",
+    "Score T1": "4",
+    "Score T2": "7"
+  },
+  {
+    "groupround": "A4",
+    "Match": "M35",
+    "Team 1 Player A": "A5 - 王丽",
+    "Team 1 Player B": "A23 - 王春明",
+    "Team 2 Player A": "A6 - 郭庆",
+    "Team 2 Player B": "A11 - Jessie",
+    "Score T1": "4",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "A4",
+    "Match": "M36",
+    "Team 1 Player A": "A2 - 赵建勇",
+    "Team 1 Player B": "A31 - Bob",
+    "Team 2 Player A": "A3 - Dean Hunter",
+    "Team 2 Player B": "A14 - Shirley",
+    "Score T1": "4",
+    "Score T2": "8"
+  },
+  {
+    "groupround": "B1",
+    "Match": "M1",
+    "Team 1 Player A": "B1 - Tina",
+    "Team 1 Player B": "B18 - 马小吾",
+    "Team 2 Player A": "B2 - liren",
+    "Team 2 Player B": "B17 - 毕咏梅",
+    "Score T1": "7",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "B1",
+    "Match": "M2",
+    "Team 1 Player A": "B3 - yufei",
+    "Team 1 Player B": "B5 - 红柳",
+    "Team 2 Player A": "B4 - William Tiong",
+    "Team 2 Player B": "B28 - Lisa Li",
+    "Score T1": "3",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "B1",
+    "Match": "M3",
+    "Team 1 Player A": "B6 - 刘俐平",
+    "Team 1 Player B": "B33 - 高清代",
+    "Team 2 Player A": "B7 - 王孟毅",
+    "Team 2 Player B": "B21 - 赵大嫚",
+    "Score T1": "7",
+    "Score T2": "8"
+  },
+  {
+    "groupround": "B1",
+    "Match": "M4",
+    "Team 1 Player A": "B8 - 肖凌闻",
+    "Team 1 Player B": "B22 - 高清",
+    "Team 2 Player A": "B9 - May Xiao",
+    "Team 2 Player B": "B16 - 罗野",
+    "Score T1": "3",
+    "Score T2": "7"
+  },
+  {
+    "groupround": "B1",
+    "Match": "M5",
+    "Team 1 Player A": "B10 - 焦冬",
+    "Team 1 Player B": "B25 - Wendy Gao",
+    "Team 2 Player A": "B11 - 夏桂柏",
+    "Team 2 Player B": "B12 - 赵伟英",
+    "Score T1": "5",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "B1",
+    "Match": "M6",
+    "Team 1 Player A": "B13 - Cathy",
+    "Team 1 Player B": "B15 - Jenny",
+    "Team 2 Player A": "B14 - 雅茹",
+    "Team 2 Player B": "B32 - 卓安",
+    "Score T1": "6",
+    "Score T2": "7"
+  },
+  {
+    "groupround": "B1",
+    "Match": "M7",
+    "Team 1 Player A": "B19 - 云儿",
+    "Team 1 Player B": "B34 - 张立成",
+    "Team 2 Player A": "B20 - 李敏",
+    "Team 2 Player B": "B36 - 李咏梅",
+    "Score T1": "4",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "B1",
+    "Match": "M8",
+    "Team 1 Player A": "B23 - 孙燕玲",
+    "Team 1 Player B": "B29 - Wing",
+    "Team 2 Player A": "B31 - 宁雅蕊",
+    "Team 2 Player B": "B35 - Yanjun Qian",
+    "Score T1": "4",
+    "Score T2": "7"
+  },
+  {
+    "groupround": "B1",
+    "Match": "M9",
+    "Team 1 Player A": "B24 - 高超",
+    "Team 1 Player B": "B26 - 李燕",
+    "Team 2 Player A": "B27 - 霍继霞",
+    "Team 2 Player B": "B30 - Lily Sun",
+    "Score T1": "7",
+    "Score T2": "8"
+  },
+  {
+    "groupround": "B2",
+    "Match": "M10",
+    "Team 1 Player A": "B7 - 王孟毅",
+    "Team 1 Player B": "B28 - Lisa Li",
+    "Team 2 Player A": "B6 - 刘俐平",
+    "Team 2 Player B": "B34 - 张立成",
+    "Score T1": "5",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "B2",
+    "Match": "M11",
+    "Team 1 Player A": "B15 - Jenny",
+    "Team 1 Player B": "B21 - 赵大嫚",
+    "Team 2 Player A": "B5 - 红柳",
+    "Team 2 Player B": "B31 - 宁雅蕊",
+    "Score T1": "2",
+    "Score T2": "7"
+  },
+  {
+    "groupround": "B2",
+    "Match": "M12",
+    "Team 1 Player A": "B9 - May Xiao",
+    "Team 1 Player B": "B20 - 李敏",
+    "Team 2 Player A": "B2 - liren",
+    "Team 2 Player B": "B32 - 卓安",
+    "Score T1": "6",
+    "Score T2": "7"
+  },
+  {
+    "groupround": "B2",
+    "Match": "M13",
+    "Team 1 Player A": "B10 - 焦冬",
+    "Team 1 Player B": "B22 - 高清",
+    "Team 2 Player A": "B1 - Tina",
+    "Team 2 Player B": "B35 - Yanjun Qian",
+    "Score T1": "3",
+    "Score T2": "8"
+  },
+  {
+    "groupround": "B2",
+    "Match": "M14",
+    "Team 1 Player A": "B8 - 肖凌闻",
+    "Team 1 Player B": "B33 - 高清代",
+    "Team 2 Player A": "B3 - yufei",
+    "Team 2 Player B": "B4 - William Tiong",
+    "Score T1": "5",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "B2",
+    "Match": "M15",
+    "Team 1 Player A": "B29 - Wing",
+    "Team 1 Player B": "B30 - Lily Sun",
+    "Team 2 Player A": "B11 - 夏桂柏",
+    "Team 2 Player B": "B17 - 毕咏梅",
+    "Score T1": "6",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "B2",
+    "Match": "M16",
+    "Team 1 Player A": "B23 - 孙燕玲",
+    "Team 1 Player B": "B26 - 李燕",
+    "Team 2 Player A": "B12 - 赵伟英",
+    "Team 2 Player B": "B13 - Cathy",
+    "Score T1": "8",
+    "Score T2": "7"
+  },
+  {
+    "groupround": "B2",
+    "Match": "M17",
+    "Team 1 Player A": "B19 - 云儿",
+    "Team 1 Player B": "B24 - 高超",
+    "Team 2 Player A": "B14 - 雅茹",
+    "Team 2 Player B": "B25 - Wendy Gao",
+    "Score T1": "5",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "B2",
+    "Match": "M18",
+    "Team 1 Player A": "B18 - 马小吾",
+    "Team 1 Player B": "B36 - 李咏梅",
+    "Team 2 Player A": "B16 - 罗野",
+    "Team 2 Player B": "B27 - 霍继霞",
+    "Score T1": "7",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "B3",
+    "Match": "M19",
+    "Team 1 Player A": "B33 - 高清代",
+    "Team 1 Player B": "B34 - 张立成",
+    "Team 2 Player A": "B9 - May Xiao",
+    "Team 2 Player B": "B10 - 焦冬",
+    "Score T1": "4",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "B3",
+    "Match": "M20",
+    "Team 1 Player A": "B22 - 高清",
+    "Team 1 Player B": "B30 - Lily Sun",
+    "Team 2 Player A": "B8 - 肖凌闻",
+    "Team 2 Player B": "B14 - 雅茹",
+    "Score T1": "7",
+    "Score T2": "7"
+  },
+  {
+    "groupround": "B3",
+    "Match": "M21",
+    "Team 1 Player A": "B27 - 霍继霞",
+    "Team 1 Player B": "B36 - 李咏梅",
+    "Team 2 Player A": "B15 - Jenny",
+    "Team 2 Player B": "B28 - Lisa Li",
+    "Score T1": "7",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "B3",
+    "Match": "M22",
+    "Team 1 Player A": "B7 - 王孟毅",
+    "Team 1 Player B": "B29 - Wing",
+    "Team 2 Player A": "B1 - Tina",
+    "Team 2 Player B": "B12 - 赵伟英",
+    "Score T1": "4",
+    "Score T2": "8"
+  },
+  {
+    "groupround": "B3",
+    "Match": "M23",
+    "Team 1 Player A": "B20 - 李敏",
+    "Team 1 Player B": "B25 - Wendy Gao",
+    "Team 2 Player A": "B6 - 刘俐平",
+    "Team 2 Player B": "B26 - 李燕",
+    "Score T1": "7",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "B3",
+    "Match": "M24",
+    "Team 1 Player A": "B13 - Cathy",
+    "Team 1 Player B": "B35 - Yanjun Qian",
+    "Team 2 Player A": "B3 - yufei",
+    "Team 2 Player B": "B31 - 宁雅蕊",
+    "Score T1": "4",
+    "Score T2": "7"
+  },
+  {
+    "groupround": "B3",
+    "Match": "M25",
+    "Team 1 Player A": "B23 - 孙燕玲",
+    "Team 1 Player B": "B24 - 高超",
+    "Team 2 Player A": "B2 - liren",
+    "Team 2 Player B": "B4 - William Tiong",
+    "Score T1": "3",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "B3",
+    "Match": "M26",
+    "Team 1 Player A": "B18 - 马小吾",
+    "Team 1 Player B": "B19 - 云儿",
+    "Team 2 Player A": "B5 - 红柳",
+    "Team 2 Player B": "B11 - 夏桂柏",
+    "Score T1": "4",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "B3",
+    "Match": "M27",
+    "Team 1 Player A": "B21 - 赵大嫚",
+    "Team 1 Player B": "B32 - 卓安",
+    "Team 2 Player A": "B16 - 罗野",
+    "Team 2 Player B": "B17 - 毕咏梅",
+    "Score T1": "7",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "B4",
+    "Match": "M28",
+    "Team 1 Player A": "B21 - 赵大嫚",
+    "Team 1 Player B": "B35 - Yanjun Qian",
+    "Team 2 Player A": "B12 - 赵伟英",
+    "Team 2 Player B": "B30 - Lily Sun",
+    "Score T1": "8",
+    "Score T2": "7"
+  },
+  {
+    "groupround": "B4",
+    "Match": "M29",
+    "Team 1 Player A": "B19 - 云儿",
+    "Team 1 Player B": "B26 - 李燕",
+    "Team 2 Player A": "B22 - 高清",
+    "Team 2 Player B": "B34 - 张立成",
+    "Score T1": "4",
+    "Score T2": "8"
+  },
+  {
+    "groupround": "B4",
+    "Match": "M30",
+    "Team 1 Player A": "B15 - Jenny",
+    "Team 1 Player B": "B20 - 李敏",
+    "Team 2 Player A": "B13 - Cathy",
+    "Team 2 Player B": "B33 - 高清代",
+    "Score T1": "7",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "B4",
+    "Match": "M31",
+    "Team 1 Player A": "B9 - May Xiao",
+    "Team 1 Player B": "B24 - 高超",
+    "Team 2 Player A": "B18 - 马小吾",
+    "Team 2 Player B": "B28 - Lisa Li",
+    "Score T1": "6",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "B4",
+    "Match": "M32",
+    "Team 1 Player A": "B10 - 焦冬",
+    "Team 1 Player B": "B32 - 卓安",
+    "Team 2 Player A": "B8 - 肖凌闻",
+    "Team 2 Player B": "B29 - Wing",
+    "Score T1": "2",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "B4",
+    "Match": "M33",
+    "Team 1 Player A": "B1 - Tina",
+    "Team 1 Player B": "B25 - Wendy Gao",
+    "Team 2 Player A": "B16 - 罗野",
+    "Team 2 Player B": "B36 - 李咏梅",
+    "Score T1": "6",
+    "Score T2": "7"
+  },
+  {
+    "groupround": "B4",
+    "Match": "M34",
+    "Team 1 Player A": "B7 - 王孟毅",
+    "Team 1 Player B": "B17 - 毕咏梅",
+    "Team 2 Player A": "B4 - William Tiong",
+    "Team 2 Player B": "B27 - 霍继霞",
+    "Score T1": "4",
+    "Score T2": "8"
+  },
+  {
+    "groupround": "B4",
+    "Match": "M35",
+    "Team 1 Player A": "B5 - 红柳",
+    "Team 1 Player B": "B23 - 孙燕玲",
+    "Team 2 Player A": "B6 - 刘俐平",
+    "Team 2 Player B": "B11 - 夏桂柏",
+    "Score T1": "8",
+    "Score T2": "6"
+  },
+  {
+    "groupround": "B4",
+    "Match": "M36",
+    "Team 1 Player A": "B2 - liren",
+    "Team 1 Player B": "B31 - 宁雅蕊",
+    "Team 2 Player A": "B3 - yufei",
+    "Team 2 Player B": "B14 - 雅茹",
+    "Score T1": "8",
+    "Score T2": "7"
+  },
+  {
+    "groupround": "KOA_8",
+    "Match": "M37",
+    "Team 1 Player A": "A17 - 杨芳",
+    "Team 1 Player B": "A23 - 王春明",
+    "Team 2 Player A": "A11 - Jessie",
+    "Team 2 Player B": "A27 - 毛毛",
+    "Score T1": "8",
+    "Score T2": "11"
+  },
+  {
+    "groupround": "KOA_8",
+    "Match": "M38",
+    "Team 1 Player A": "A25 - Andy Zeng",
+    "Team 1 Player B": "A20 - Roy Li",
+    "Team 2 Player A": "A34 - 王轶男",
+    "Team 2 Player B": "A9 - 张卫明",
+    "Score T1": "9",
+    "Score T2": "11"
+  },
+  {
+    "groupround": "KOA_8",
+    "Match": "M39",
+    "Team 1 Player A": "A4 - Jason",
+    "Team 1 Player B": "A5 - 王丽",
+    "Team 2 Player A": "A12 - 叶政",
+    "Team 2 Player B": "A31 - Bob",
+    "Score T1": "11",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "KOA_8",
+    "Match": "M40",
+    "Team 1 Player A": "A10 - 小李",
+    "Team 1 Player B": "A22 - 邢世杰",
+    "Team 2 Player A": "A24 - 陈天仪",
+    "Team 2 Player B": "A33 - Polly",
+    "Score T1": "4",
+    "Score T2": "11"
+  },
+  {
+    "groupround": "KOA_8",
+    "Match": "M41",
+    "Team 1 Player A": "A32 - 郑瑛",
+    "Team 1 Player B": "A16 - 唐仪亮",
+    "Team 2 Player A": "A29 - Helen",
+    "Team 2 Player B": "A21 - 阿米 缪敏",
+    "Score T1": "11",
+    "Score T2": "8"
+  },
+  {
+    "groupround": "KOA_8",
+    "Match": "M42",
+    "Team 1 Player A": "A36 - 魏菲",
+    "Team 1 Player B": "A3 - Dean Hunter",
+    "Team 2 Player A": "A14 - Shirley",
+    "Team 2 Player B": "A28 - 王雅峰",
+    "Score T1": "9",
+    "Score T2": "11"
+  },
+  {
+    "groupround": "KOA_4",
+    "Match": "M43",
+    "Team 1 Player A": "A7 - 王乃军",
+    "Team 1 Player B": "A2 - 赵建勇",
+    "Team 2 Player A": "A14 - Shirley",
+    "Team 2 Player B": "A28 - 王雅峰",
+    "Score T1": "9",
+    "Score T2": "11"
+  },
+  {
+    "groupround": "KOA_4",
+    "Match": "M44",
+    "Team 1 Player A": "A6 - 郭庆",
+    "Team 1 Player B": "A1 - Jingyan",
+    "Team 2 Player A": "A32 - 郑瑛",
+    "Team 2 Player B": "A16 - 唐仪亮",
+    "Score T1": "11",
+    "Score T2": "9"
+  },
+  {
+    "groupround": "KOA_4",
+    "Match": "M45",
+    "Team 1 Player A": "A11 - Jessie",
+    "Team 1 Player B": "A27 - 毛毛",
+    "Team 2 Player A": "A24 - 陈天仪",
+    "Team 2 Player B": "A33 - Polly",
+    "Score T1": "9",
+    "Score T2": "11"
+  },
+  {
+    "groupround": "KOA_4",
+    "Match": "M46",
+    "Team 1 Player A": "A34 - 王轶男",
+    "Team 1 Player B": "A9 - 张卫明",
+    "Team 2 Player A": "A4 - Jason",
+    "Team 2 Player B": "A5 - 王丽",
+    "Score T1": "9",
+    "Score T2": "11"
+  },
+  {
+    "groupround": "KOA_2",
+    "Match": "M47",
+    "Team 1 Player A": "A14 - Shirley",
+    "Team 1 Player B": "A28 - 王雅峰",
+    "Team 2 Player A": "A4 - Jason",
+    "Team 2 Player B": "A5 - 王丽",
+    "Score T1": "7",
+    "Score T2": "12"
+  },
+  {
+    "groupround": "KOA_2",
+    "Match": "M48",
+    "Team 1 Player A": "A6 - 郭庆",
+    "Team 1 Player B": "A1 - Jingyan",
+    "Team 2 Player A": "A24 - 陈天仪",
+    "Team 2 Player B": "A33 - Polly",
+    "Score T1": "9",
+    "Score T2": "12"
+  },
+  {
+    "groupround": "KOA_Bronz",
+    "Match": "M49",
+    "Team 1 Player A": "A14 - Shirley",
+    "Team 1 Player B": "A28 - 王雅峰",
+    "Team 2 Player A": "A6 - 郭庆",
+    "Team 2 Player B": "A1 - Jingyan",
+    "Score T1": "",
+    "Score T2": ""
+  },
+  {
+    "groupround": "KOA_Gold",
+    "Match": "M50",
+    "Team 1 Player A": "A4 - Jason",
+    "Team 1 Player B": "A5 - 王丽",
+    "Team 2 Player A": "A24 - 陈天仪",
+    "Team 2 Player B": "A33 - Polly",
+    "Score T1": "",
+    "Score T2": ""
+  },
+  {
+    "groupround": "KOB_8",
+    "Match": "M51",
+    "Team 1 Player A": "B35 - Yanjun Qian",
+    "Team 1 Player B": "B1 - Tina",
+    "Team 2 Player A": "B15 - Jenny",
+    "Team 2 Player B": "B5 - 红柳",
+    "Score T1": "11",
+    "Score T2": "9"
+  },
+  {
+    "groupround": "KOB_8",
+    "Match": "M52",
+    "Team 1 Player A": "B30 - Lily Sun",
+    "Team 1 Player B": "B23 - 孙燕玲",
+    "Team 2 Player A": "B34 - 张立成",
+    "Team 2 Player B": "B22 - 高清",
+    "Score T1": "9",
+    "Score T2": "11"
+  },
+  {
+    "groupround": "KOB_8",
+    "Match": "M53",
+    "Team 1 Player A": "B32 - 卓安",
+    "Team 1 Player B": "B10 - 焦冬",
+    "Team 2 Player A": "B33 - 高清代",
+    "Team 2 Player B": "B9 - May Xiao",
+    "Score T1": "11",
+    "Score T2": "5"
+  },
+  {
+    "groupround": "KOB_8",
+    "Match": "M54",
+    "Team 1 Player A": "B16 - 罗野",
+    "Team 1 Player B": "B26 - 李燕",
+    "Team 2 Player A": "B4 - William Tiong",
+    "Team 2 Player B": "B11 - 夏桂柏",
+    "Score T1": "4",
+    "Score T2": "11"
+  },
+  {
+    "groupround": "KOB_8",
+    "Match": "M55",
+    "Team 1 Player A": "B28 - Lisa Li",
+    "Team 1 Player B": "B31 - 宁雅蕊",
+    "Team 2 Player A": "B25 - Wendy Gao",
+    "Team 2 Player B": "B27 - 霍继霞",
+    "Score T1": "5",
+    "Score T2": "11"
+  },
+  {
+    "groupround": "KOB_8",
+    "Match": "M56",
+    "Team 1 Player A": "B2 - liren",
+    "Team 1 Player B": "B18 - 马小吾",
+    "Team 2 Player A": "B24 - 高超",
+    "Team 2 Player B": "B6 - 刘俐平",
+    "Score T1": "6",
+    "Score T2": "11"
+  },
+  {
+    "groupround": "KOB_4",
+    "Match": "M57",
+    "Team 1 Player A": "B19 - 云儿",
+    "Team 1 Player B": "B17 - 毕咏梅",
+    "Team 2 Player A": "B24 - 高超",
+    "Team 2 Player B": "B6 - 刘俐平",
+    "Score T1": "11",
+    "Score T2": "9"
+  },
+  {
+    "groupround": "KOB_4",
+    "Match": "M58",
+    "Team 1 Player A": "B13 - Cathy",
+    "Team 1 Player B": "B12 - 赵伟英",
+    "Team 2 Player A": "B25 - Wendy Gao",
+    "Team 2 Player B": "B27 - 霍继霞",
+    "Score T1": "11",
+    "Score T2": "9"
+  },
+  {
+    "groupround": "KOB_4",
+    "Match": "M59",
+    "Team 1 Player A": "B35 - Yanjun Qian",
+    "Team 1 Player B": "B1 - Tina",
+    "Team 2 Player A": "B4 - William Tiong",
+    "Team 2 Player B": "B11 - 夏桂柏",
+    "Score T1": "9",
+    "Score T2": "11"
+  },
+  {
+    "groupround": "KOB_4",
+    "Match": "M60",
+    "Team 1 Player A": "B34 - 张立成",
+    "Team 1 Player B": "B22 - 高清",
+    "Team 2 Player A": "B32 - 卓安",
+    "Team 2 Player B": "B10 - 焦冬",
+    "Score T1": "9",
+    "Score T2": "11"
+  },
+  {
+    "groupround": "KOB_2",
+    "Match": "M61",
+    "Team 1 Player A": "B19 - 云儿",
+    "Team 1 Player B": "B17 - 毕咏梅",
+    "Team 2 Player A": "B32 - 卓安",
+    "Team 2 Player B": "B10 - 焦冬",
+    "Score T1": "9",
+    "Score T2": "11"
+  },
+  {
+    "groupround": "KOB_2",
+    "Match": "M62",
+    "Team 1 Player A": "B13 - Cathy",
+    "Team 1 Player B": "B12 - 赵伟英",
+    "Team 2 Player A": "B4 - William Tiong",
+    "Team 2 Player B": "B11 - 夏桂柏",
+    "Score T1": "11",
+    "Score T2": "9"
+  },
+  {
+    "groupround": "KOB_Bronz",
+    "Match": "M63",
+    "Team 1 Player A": "B19 - 云儿",
+    "Team 1 Player B": "B17 - 毕咏梅",
+    "Team 2 Player A": "B4 - William Tiong",
+    "Team 2 Player B": "B11 - 夏桂柏",
+    "Score T1": "",
+    "Score T2": ""
+  },
+  {
+    "groupround": "KOB_Gold",
+    "Match": "M64",
+    "Team 1 Player A": "B32 - 卓安",
+    "Team 1 Player B": "B10 - 焦冬",
+    "Team 2 Player A": "B13 - Cathy",
+    "Team 2 Player B": "B12 - 赵伟英",
+    "Score T1": "",
+    "Score T2": ""
+  }
+]

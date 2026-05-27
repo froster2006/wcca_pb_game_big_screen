@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>匹克球比赛实时大屏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 3 -->
+    <div id="groupA1" class="page">
+        <h1>🔵 A组循环赛 - 第一轮</h1>
+        <div class="table-wrap">
+            <div id="groupARound1"></div>
+        </div>
+    </div>
+    <div id="groupB1" class="page">
+        <h1>🟢 B组循环赛 - 第一轮</h1>
+        <div class="table-wrap">
+            <div id="groupBRound1"></div>
+        </div>
+    </div>
+    <!-- 4 -->
+    <div id="groupA2" class="page">
+        <h1>🔵 A组循环赛 - 第二轮</h1>
+        <div class="table-wrap">
+            <div id="groupARound2"></div>
+        </div>
+    </div>
+    <div id="groupB2" class="page">
+        <h1>🟢 B组循环赛 - 第二轮</h1>
+        <div class="table-wrap">
+            <div id="groupBRound2"></div>
+        </div>
+    </div>
+    <!-- 5 -->
+    <div id="groupA3" class="page">
+        <h1>🔵 A组循环赛 - 第三轮</h1>
+        <div class="table-wrap">
+            <div id="groupARound3"></div>
+        </div>
+    </div>
+    <div id="groupB3" class="page">
+        <h1>🟢 B组循环赛 - 第三轮</h1>
+        <div class="table-wrap">
+            <div id="groupBRound3"></div>
+        </div>
+    </div>
+    <!-- 6 -->
+    <div id="groupA4" class="page">
+        <h1>🔵 A组循环赛 - 第四轮</h1>
+        <div class="table-wrap">
+            <div id="groupARound4"></div>
+        </div>
+    </div>
+
+
+    <div id="groupB4" class="page">
+        <h1>🟢 B组循环赛 - 第四轮</h1>
+        <div class="table-wrap">
+            <div id="groupBRound4"></div>
+        </div>
+    </div>
+
+    <!-- 11 -->
+    <div id="groupA_ranking_top" class="page">
+        <h1>🏆 A组循环赛总积分</h1>
+        <div class="table-wrap">
+            <div id="groupATotal1"></div>
+        </div>
+    </div>
+
+    <div id="groupA_ranking_bottom" class="page">
+        <h1>🏆 A组循环赛总积分</h1>
+        <div class="table-wrap">
+            <div id="groupATotal2"></div>
+        </div>
+    </div>
+
+    <!-- 12 -->
+    <div id="groupB_ranking_top" class="page">
+        <h1>🏆 B组循环赛总积分</h1>
+        <div class="table-wrap">
+            <div id="groupBTotal1"></div>
+        </div>
+    </div>
+
+    <div id="groupB_ranking_bottom" class="page">
+        <h1>🏆 B组循环赛总积分</h1>
+        <div class="table-wrap">
+            <div id="groupBTotal2"></div>
+        </div>
+    </div>
+
+    <div id="KOA_8_page" class="page">
+        <h1>🟢 A组淘汰赛 - 八分之一</h1>
+        <div class="table-wrap">
+            <div id="KOA_8"></div>
+        </div>
+    </div>
+
+
+    <div id="KOB_8_page" class="page">
+        <h1>🟢 B组淘汰赛 - 八分之一</h1>
+        <div class="table-wrap">
+            <div id="KOB_8"></div>
+        </div>
+    </div>
+
+
+    <div id="KOA_4_page" class="page">
+        <h1>🟢 A组淘汰赛 - 四分之一</h1>
+        <div class="table-wrap">
+            <div id="KOA_4"></div>
+        </div>
+        <br />
+        <h1>🟢 B组淘汰赛 - 四分之一</h1>
+        <div class="table-wrap">
+            <div id="KOB_4"></div>
+        </div>
+    </div>
+
+
+    <div id="KOA_2_page" class="page">
+        <h1>🟢 A组淘汰赛 - 二分之一</h1>
+        <div class="table-wrap">
+            <div id="KOA_2"></div>
+        </div>
+        <br />
+        <h1>🟢 B组淘汰赛 - 二分之一</h1>
+        <div class="table-wrap">
+            <div id="KOB_2"></div>
+        </div>
+    </div>
+
+
+
+    <div id="KOA_Bronz_page" class="page">
+        <h1>🟢 A组淘汰赛 - 三四名</h1>
+        <div class="table-wrap">
+            <div id="KOA_Bronz"></div>
+        </div>
+        <br />
+        <h1>🟢 B组淘汰赛 - 三四名</h1>
+        <div class="table-wrap">
+            <div id="KOB_Bronz"></div>
+        </div>
+    </div>
+
+
+    <div id="KOA_Gold_page" class="page">
+        <h1>🟢 A组淘汰赛 - 决赛</h1>
+        <div class="table-wrap">
+            <div id="KOA_Gold"></div>
+        </div>
+        <br />
+        <h1>🟢 B组淘汰赛 - 决赛</h1>
+        <div class="table-wrap">
+            <div id="KOB_Gold"></div>
+        </div>
+
+    </div>
+
+    <!-- 翻页控制按钮 -->
+    <div class="page-controls">
+        <button id="prevBtn">⬅️ 上一页</button>
+        <button id="nextBtn">下一页 ➡️</button>
+    </div>
+
+    <script src="app.js"></script>
+
+
+
+
+
+</body>
+
+</html>
