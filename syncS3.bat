@@ -1,0 +1,1 @@
+aws s3 sync .\ s3://wcca-pickleball-club --exclude ".git/*" --profile sls
