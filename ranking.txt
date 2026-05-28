@@ -1,4 +1,4 @@
-group	ranking	Player	Total Points (Sorted)	Net Score
+﻿group	ranking	Player	Total Points (Sorted)	Net Score
 A	1	A7 - 王乃军	36	9
 A	2	A2 - 赵建勇	33	6
 A	3	A6 - 郭庆	23	-13

@@ -24,7 +24,7 @@ def tsv_to_json_file(
     json_path = Path(json_path)
     delimiter = _normalize_delimiter(delimiter)
 
-    with tsv_path.open("r", encoding=encoding, newline="") as tsv_file:
+    with tsv_path.open("r", encoding="utf-8-sig", newline="") as tsv_file:
         reader = csv.DictReader(tsv_file, delimiter=delimiter)
         if reader.fieldnames is None:
             raise ValueError(f"No header row found in TSV file: {tsv_path}")

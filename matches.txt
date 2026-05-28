@@ -1,4 +1,4 @@
-groupround	Match	Court	Team 1 Player A	Team 1 Player B	Team 2 Player A	Team 2 Player B	Score T1	Score T2
+﻿groupround	Match	Court	Team 1 Player A	Team 1 Player B	Team 2 Player A	Team 2 Player B	Score T1	Score T2
 A1	M1	1	A1 - Jingyan	A18 - 徐步江	A2 - 赵建勇	A17 - 杨芳	2	5
 A1	M2	2	A3 - Dean Hunter	A5 - 王丽	A4 - Jason	A28 - 王雅峰	4	6
 A1	M3	3	A6 - 郭庆	A33 - Polly	A7 - 王乃军	A21 - 阿米 缪敏	3	8
