@@ -194,6 +194,19 @@ document.getElementById('prevBtn').onclick = () => {
   showCurrentPage();
 };
 
+
+// 键盘左右方向键翻页
+document.addEventListener('keydown', function(e) {
+  // 左箭头 ← 上一页
+  if (e.key === 'ArrowLeft') {
+    prevPage();
+  }
+  // 右箭头 → 下一页
+  if (e.key === 'ArrowRight') {
+    nextPage();
+  }
+});
+
 // ==========================
 // 启动系统
 // ==========================
