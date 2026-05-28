@@ -5,7 +5,8 @@
 function generateMatchTable(matches) {
   if (!matches || matches.length === 0) {
     return `<table>
-      <tr>      
+      <tr>  
+        <th>Court</th>    
         <th>T1-A</th>
         <th>T1-B</th>
         <th>T2-A</th>
@@ -17,6 +18,7 @@ function generateMatchTable(matches) {
 
   return `<table>
     <tr>
+        <th>Court</th>
         <th>T1-A</th>
         <th>T1-B</th>
         <th>比分</th>
@@ -26,9 +28,10 @@ function generateMatchTable(matches) {
     </tr>
     ${matches.map(m => `
     <tr>
+    <td>${m["Court"]}</td>
       <td>${m["Team 1 Player A"]}</td>
       <td>${m["Team 1 Player B"]}</td>
-    <td>${m["Score T1"]} : ${m["Score T2"]}</td>
+    <td>${m["Score T1"]}:${m["Score T2"]}</td>
       <td>${m["Team 2 Player A"]}</td>
       <td>${m["Team 2 Player B"]}</td>
 

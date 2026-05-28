@@ -2,6 +2,7 @@
   {
     "groupround": "A1",
     "Match": "M1",
+    "Court": "1",
     "Team 1 Player A": "A1 - Jingyan",
     "Team 1 Player B": "A18 - 徐步江",
     "Team 2 Player A": "A2 - 赵建勇",
@@ -12,6 +13,7 @@
   {
     "groupround": "A1",
     "Match": "M2",
+    "Court": "2",
     "Team 1 Player A": "A3 - Dean Hunter",
     "Team 1 Player B": "A5 - 王丽",
     "Team 2 Player A": "A4 - Jason",
@@ -22,6 +24,7 @@
   {
     "groupround": "A1",
     "Match": "M3",
+    "Court": "3",
     "Team 1 Player A": "A6 - 郭庆",
     "Team 1 Player B": "A33 - Polly",
     "Team 2 Player A": "A7 - 王乃军",
@@ -32,6 +35,7 @@
   {
     "groupround": "A1",
     "Match": "M4",
+    "Court": "1",
     "Team 1 Player A": "A8 - Larry",
     "Team 1 Player B": "A22 - 邢世杰",
     "Team 2 Player A": "A9 - 张卫明",
@@ -42,6 +46,7 @@
   {
     "groupround": "A1",
     "Match": "M5",
+    "Court": "2",
     "Team 1 Player A": "A10 - 小李",
     "Team 1 Player B": "A25 - Andy Zeng",
     "Team 2 Player A": "A11 - Jessie",
@@ -52,6 +57,7 @@
   {
     "groupround": "A1",
     "Match": "M6",
+    "Court": "3",
     "Team 1 Player A": "A13 - Jane Chen",
     "Team 1 Player B": "A15 - 司丽蓉",
     "Team 2 Player A": "A14 - Shirley",
@@ -62,6 +68,7 @@
   {
     "groupround": "A1",
     "Match": "M7",
+    "Court": "1",
     "Team 1 Player A": "A19 - 发枚",
     "Team 1 Player B": "A34 - 王轶男",
     "Team 2 Player A": "A20 - Roy Li",
@@ -72,6 +79,7 @@
   {
     "groupround": "A1",
     "Match": "M8",
+    "Court": "2",
     "Team 1 Player A": "A23 - 王春明",
     "Team 1 Player B": "A29 - Helen",
     "Team 2 Player A": "A31 - Bob",
@@ -82,6 +90,7 @@
   {
     "groupround": "A1",
     "Match": "M9",
+    "Court": "3",
     "Team 1 Player A": "A24 - 陈天仪",
     "Team 1 Player B": "A26 - Coconut 小椰",
     "Team 2 Player A": "A27 - 毛毛",
@@ -92,6 +101,7 @@
   {
     "groupround": "A2",
     "Match": "M10",
+    "Court": "1",
     "Team 1 Player A": "A7 - 王乃军",
     "Team 1 Player B": "A28 - 王雅峰",
     "Team 2 Player A": "A6 - 郭庆",
@@ -102,6 +112,7 @@
   {
     "groupround": "A2",
     "Match": "M11",
+    "Court": "2",
     "Team 1 Player A": "A15 - 司丽蓉",
     "Team 1 Player B": "A21 - 阿米 缪敏",
     "Team 2 Player A": "A5 - 王丽",
@@ -112,6 +123,7 @@
   {
     "groupround": "A2",
     "Match": "M12",
+    "Court": "3",
     "Team 1 Player A": "A9 - 张卫明",
     "Team 1 Player B": "A20 - Roy Li",
     "Team 2 Player A": "A2 - 赵建勇",
@@ -122,6 +134,7 @@
   {
     "groupround": "A2",
     "Match": "M13",
+    "Court": "1",
     "Team 1 Player A": "A10 - 小李",
     "Team 1 Player B": "A22 - 邢世杰",
     "Team 2 Player A": "A1 - Jingyan",
@@ -132,6 +145,7 @@
   {
     "groupround": "A2",
     "Match": "M14",
+    "Court": "2",
     "Team 1 Player A": "A8 - Larry",
     "Team 1 Player B": "A33 - Polly",
     "Team 2 Player A": "A3 - Dean Hunter",
@@ -142,6 +156,7 @@
   {
     "groupround": "A2",
     "Match": "M15",
+    "Court": "3",
     "Team 1 Player A": "A29 - Helen",
     "Team 1 Player B": "A30 - Simon Huang",
     "Team 2 Player A": "A11 - Jessie",
@@ -152,6 +167,7 @@
   {
     "groupround": "A2",
     "Match": "M16",
+    "Court": "1",
     "Team 1 Player A": "A23 - 王春明",
     "Team 1 Player B": "A26 - Coconut 小椰",
     "Team 2 Player A": "A12 - 叶政",
@@ -162,6 +178,7 @@
   {
     "groupround": "A2",
     "Match": "M17",
+    "Court": "2",
     "Team 1 Player A": "A19 - 发枚",
     "Team 1 Player B": "A24 - 陈天仪",
     "Team 2 Player A": "A14 - Shirley",
@@ -172,6 +189,7 @@
   {
     "groupround": "A2",
     "Match": "M18",
+    "Court": "3",
     "Team 1 Player A": "A18 - 徐步江",
     "Team 1 Player B": "A36 - 魏菲",
     "Team 2 Player A": "A16 - 唐仪亮",
@@ -182,6 +200,7 @@
   {
     "groupround": "A3",
     "Match": "M19",
+    "Court": "1",
     "Team 1 Player A": "A33 - Polly",
     "Team 1 Player B": "A34 - 王轶男",
     "Team 2 Player A": "A9 - 张卫明",
@@ -192,6 +211,7 @@
   {
     "groupround": "A3",
     "Match": "M20",
+    "Court": "2",
     "Team 1 Player A": "A22 - 邢世杰",
     "Team 1 Player B": "A30 - Simon Huang",
     "Team 2 Player A": "A8 - Larry",
@@ -202,6 +222,7 @@
   {
     "groupround": "A3",
     "Match": "M21",
+    "Court": "3",
     "Team 1 Player A": "A27 - 毛毛",
     "Team 1 Player B": "A36 - 魏菲",
     "Team 2 Player A": "A15 - 司丽蓉",
@@ -212,6 +233,7 @@
   {
     "groupround": "A3",
     "Match": "M22",
+    "Court": "1",
     "Team 1 Player A": "A7 - 王乃军",
     "Team 1 Player B": "A29 - Helen",
     "Team 2 Player A": "A1 - Jingyan",
@@ -222,6 +244,7 @@
   {
     "groupround": "A3",
     "Match": "M23",
+    "Court": "2",
     "Team 1 Player A": "A20 - Roy Li",
     "Team 1 Player B": "A25 - Andy Zeng",
     "Team 2 Player A": "A6 - 郭庆",
@@ -232,6 +255,7 @@
   {
     "groupround": "A3",
     "Match": "M24",
+    "Court": "3",
     "Team 1 Player A": "A13 - Jane Chen",
     "Team 1 Player B": "A35 - 冬艳",
     "Team 2 Player A": "A3 - Dean Hunter",
@@ -242,6 +266,7 @@
   {
     "groupround": "A3",
     "Match": "M25",
+    "Court": "1",
     "Team 1 Player A": "A23 - 王春明",
     "Team 1 Player B": "A24 - 陈天仪",
     "Team 2 Player A": "A2 - 赵建勇",
@@ -252,6 +277,7 @@
   {
     "groupround": "A3",
     "Match": "M26",
+    "Court": "2",
     "Team 1 Player A": "A18 - 徐步江",
     "Team 1 Player B": "A19 - 发枚",
     "Team 2 Player A": "A5 - 王丽",
@@ -262,6 +288,7 @@
   {
     "groupround": "A3",
     "Match": "M27",
+    "Court": "3",
     "Team 1 Player A": "A21 - 阿米 缪敏",
     "Team 1 Player B": "A32 - 郑瑛",
     "Team 2 Player A": "A16 - 唐仪亮",
@@ -272,6 +299,7 @@
   {
     "groupround": "A4",
     "Match": "M28",
+    "Court": "1",
     "Team 1 Player A": "A21 - 阿米 缪敏",
     "Team 1 Player B": "A35 - 冬艳",
     "Team 2 Player A": "A12 - 叶政",
@@ -282,6 +310,7 @@
   {
     "groupround": "A4",
     "Match": "M29",
+    "Court": "2",
     "Team 1 Player A": "A19 - 发枚",
     "Team 1 Player B": "A26 - Coconut 小椰",
     "Team 2 Player A": "A22 - 邢世杰",
@@ -292,6 +321,7 @@
   {
     "groupround": "A4",
     "Match": "M30",
+    "Court": "3",
     "Team 1 Player A": "A15 - 司丽蓉",
     "Team 1 Player B": "A20 - Roy Li",
     "Team 2 Player A": "A13 - Jane Chen",
@@ -302,6 +332,7 @@
   {
     "groupround": "A4",
     "Match": "M31",
+    "Court": "1",
     "Team 1 Player A": "A9 - 张卫明",
     "Team 1 Player B": "A24 - 陈天仪",
     "Team 2 Player A": "A18 - 徐步江",
@@ -312,6 +343,7 @@
   {
     "groupround": "A4",
     "Match": "M32",
+    "Court": "2",
     "Team 1 Player A": "A10 - 小李",
     "Team 1 Player B": "A32 - 郑瑛",
     "Team 2 Player A": "A8 - Larry",
@@ -322,6 +354,7 @@
   {
     "groupround": "A4",
     "Match": "M33",
+    "Court": "3",
     "Team 1 Player A": "A1 - Jingyan",
     "Team 1 Player B": "A25 - Andy Zeng",
     "Team 2 Player A": "A16 - 唐仪亮",
@@ -332,6 +365,7 @@
   {
     "groupround": "A4",
     "Match": "M34",
+    "Court": "1",
     "Team 1 Player A": "A7 - 王乃军",
     "Team 1 Player B": "A17 - 杨芳",
     "Team 2 Player A": "A4 - Jason",
@@ -342,6 +376,7 @@
   {
     "groupround": "A4",
     "Match": "M35",
+    "Court": "2",
     "Team 1 Player A": "A5 - 王丽",
     "Team 1 Player B": "A23 - 王春明",
     "Team 2 Player A": "A6 - 郭庆",
@@ -352,6 +387,7 @@
   {
     "groupround": "A4",
     "Match": "M36",
+    "Court": "3",
     "Team 1 Player A": "A2 - 赵建勇",
     "Team 1 Player B": "A31 - Bob",
     "Team 2 Player A": "A3 - Dean Hunter",
@@ -362,6 +398,7 @@
   {
     "groupround": "B1",
     "Match": "M1",
+    "Court": "4",
     "Team 1 Player A": "B1 - Tina",
     "Team 1 Player B": "B18 - 马小吾",
     "Team 2 Player A": "B2 - liren",
@@ -372,6 +409,7 @@
   {
     "groupround": "B1",
     "Match": "M2",
+    "Court": "5",
     "Team 1 Player A": "B3 - yufei",
     "Team 1 Player B": "B5 - 红柳",
     "Team 2 Player A": "B4 - William Tiong",
@@ -382,6 +420,7 @@
   {
     "groupround": "B1",
     "Match": "M3",
+    "Court": "6",
     "Team 1 Player A": "B6 - 刘俐平",
     "Team 1 Player B": "B33 - 高清代",
     "Team 2 Player A": "B7 - 王孟毅",
@@ -392,6 +431,7 @@
   {
     "groupround": "B1",
     "Match": "M4",
+    "Court": "4",
     "Team 1 Player A": "B8 - 肖凌闻",
     "Team 1 Player B": "B22 - 高清",
     "Team 2 Player A": "B9 - May Xiao",
@@ -402,6 +442,7 @@
   {
     "groupround": "B1",
     "Match": "M5",
+    "Court": "5",
     "Team 1 Player A": "B10 - 焦冬",
     "Team 1 Player B": "B25 - Wendy Gao",
     "Team 2 Player A": "B11 - 夏桂柏",
@@ -412,6 +453,7 @@
   {
     "groupround": "B1",
     "Match": "M6",
+    "Court": "6",
     "Team 1 Player A": "B13 - Cathy",
     "Team 1 Player B": "B15 - Jenny",
     "Team 2 Player A": "B14 - 雅茹",
@@ -422,6 +464,7 @@
   {
     "groupround": "B1",
     "Match": "M7",
+    "Court": "4",
     "Team 1 Player A": "B19 - 云儿",
     "Team 1 Player B": "B34 - 张立成",
     "Team 2 Player A": "B20 - 李敏",
@@ -432,6 +475,7 @@
   {
     "groupround": "B1",
     "Match": "M8",
+    "Court": "5",
     "Team 1 Player A": "B23 - 孙燕玲",
     "Team 1 Player B": "B29 - Wing",
     "Team 2 Player A": "B31 - 宁雅蕊",
@@ -442,6 +486,7 @@
   {
     "groupround": "B1",
     "Match": "M9",
+    "Court": "6",
     "Team 1 Player A": "B24 - 高超",
     "Team 1 Player B": "B26 - 李燕",
     "Team 2 Player A": "B27 - 霍继霞",
@@ -452,6 +497,7 @@
   {
     "groupround": "B2",
     "Match": "M10",
+    "Court": "4",
     "Team 1 Player A": "B7 - 王孟毅",
     "Team 1 Player B": "B28 - Lisa Li",
     "Team 2 Player A": "B6 - 刘俐平",
@@ -462,6 +508,7 @@
   {
     "groupround": "B2",
     "Match": "M11",
+    "Court": "5",
     "Team 1 Player A": "B15 - Jenny",
     "Team 1 Player B": "B21 - 赵大嫚",
     "Team 2 Player A": "B5 - 红柳",
@@ -472,6 +519,7 @@
   {
     "groupround": "B2",
     "Match": "M12",
+    "Court": "6",
     "Team 1 Player A": "B9 - May Xiao",
     "Team 1 Player B": "B20 - 李敏",
     "Team 2 Player A": "B2 - liren",
@@ -482,6 +530,7 @@
   {
     "groupround": "B2",
     "Match": "M13",
+    "Court": "4",
     "Team 1 Player A": "B10 - 焦冬",
     "Team 1 Player B": "B22 - 高清",
     "Team 2 Player A": "B1 - Tina",
@@ -492,6 +541,7 @@
   {
     "groupround": "B2",
     "Match": "M14",
+    "Court": "5",
     "Team 1 Player A": "B8 - 肖凌闻",
     "Team 1 Player B": "B33 - 高清代",
     "Team 2 Player A": "B3 - yufei",
@@ -502,6 +552,7 @@
   {
     "groupround": "B2",
     "Match": "M15",
+    "Court": "6",
     "Team 1 Player A": "B29 - Wing",
     "Team 1 Player B": "B30 - Lily Sun",
     "Team 2 Player A": "B11 - 夏桂柏",
@@ -512,6 +563,7 @@
   {
     "groupround": "B2",
     "Match": "M16",
+    "Court": "4",
     "Team 1 Player A": "B23 - 孙燕玲",
     "Team 1 Player B": "B26 - 李燕",
     "Team 2 Player A": "B12 - 赵伟英",
@@ -522,6 +574,7 @@
   {
     "groupround": "B2",
     "Match": "M17",
+    "Court": "5",
     "Team 1 Player A": "B19 - 云儿",
     "Team 1 Player B": "B24 - 高超",
     "Team 2 Player A": "B14 - 雅茹",
@@ -532,6 +585,7 @@
   {
     "groupround": "B2",
     "Match": "M18",
+    "Court": "6",
     "Team 1 Player A": "B18 - 马小吾",
     "Team 1 Player B": "B36 - 李咏梅",
     "Team 2 Player A": "B16 - 罗野",
@@ -542,6 +596,7 @@
   {
     "groupround": "B3",
     "Match": "M19",
+    "Court": "4",
     "Team 1 Player A": "B33 - 高清代",
     "Team 1 Player B": "B34 - 张立成",
     "Team 2 Player A": "B9 - May Xiao",
@@ -552,6 +607,7 @@
   {
     "groupround": "B3",
     "Match": "M20",
+    "Court": "5",
     "Team 1 Player A": "B22 - 高清",
     "Team 1 Player B": "B30 - Lily Sun",
     "Team 2 Player A": "B8 - 肖凌闻",
@@ -562,6 +618,7 @@
   {
     "groupround": "B3",
     "Match": "M21",
+    "Court": "6",
     "Team 1 Player A": "B27 - 霍继霞",
     "Team 1 Player B": "B36 - 李咏梅",
     "Team 2 Player A": "B15 - Jenny",
@@ -572,6 +629,7 @@
   {
     "groupround": "B3",
     "Match": "M22",
+    "Court": "4",
     "Team 1 Player A": "B7 - 王孟毅",
     "Team 1 Player B": "B29 - Wing",
     "Team 2 Player A": "B1 - Tina",
@@ -582,6 +640,7 @@
   {
     "groupround": "B3",
     "Match": "M23",
+    "Court": "5",
     "Team 1 Player A": "B20 - 李敏",
     "Team 1 Player B": "B25 - Wendy Gao",
     "Team 2 Player A": "B6 - 刘俐平",
@@ -592,6 +651,7 @@
   {
     "groupround": "B3",
     "Match": "M24",
+    "Court": "6",
     "Team 1 Player A": "B13 - Cathy",
     "Team 1 Player B": "B35 - Yanjun Qian",
     "Team 2 Player A": "B3 - yufei",
@@ -602,6 +662,7 @@
   {
     "groupround": "B3",
     "Match": "M25",
+    "Court": "4",
     "Team 1 Player A": "B23 - 孙燕玲",
     "Team 1 Player B": "B24 - 高超",
     "Team 2 Player A": "B2 - liren",
@@ -612,6 +673,7 @@
   {
     "groupround": "B3",
     "Match": "M26",
+    "Court": "5",
     "Team 1 Player A": "B18 - 马小吾",
     "Team 1 Player B": "B19 - 云儿",
     "Team 2 Player A": "B5 - 红柳",
@@ -622,6 +684,7 @@
   {
     "groupround": "B3",
     "Match": "M27",
+    "Court": "6",
     "Team 1 Player A": "B21 - 赵大嫚",
     "Team 1 Player B": "B32 - 卓安",
     "Team 2 Player A": "B16 - 罗野",
@@ -632,6 +695,7 @@
   {
     "groupround": "B4",
     "Match": "M28",
+    "Court": "4",
     "Team 1 Player A": "B21 - 赵大嫚",
     "Team 1 Player B": "B35 - Yanjun Qian",
     "Team 2 Player A": "B12 - 赵伟英",
@@ -642,6 +706,7 @@
   {
     "groupround": "B4",
     "Match": "M29",
+    "Court": "5",
     "Team 1 Player A": "B19 - 云儿",
     "Team 1 Player B": "B26 - 李燕",
     "Team 2 Player A": "B22 - 高清",
@@ -652,6 +717,7 @@
   {
     "groupround": "B4",
     "Match": "M30",
+    "Court": "6",
     "Team 1 Player A": "B15 - Jenny",
     "Team 1 Player B": "B20 - 李敏",
     "Team 2 Player A": "B13 - Cathy",
@@ -662,6 +728,7 @@
   {
     "groupround": "B4",
     "Match": "M31",
+    "Court": "4",
     "Team 1 Player A": "B9 - May Xiao",
     "Team 1 Player B": "B24 - 高超",
     "Team 2 Player A": "B18 - 马小吾",
@@ -672,6 +739,7 @@
   {
     "groupround": "B4",
     "Match": "M32",
+    "Court": "5",
     "Team 1 Player A": "B10 - 焦冬",
     "Team 1 Player B": "B32 - 卓安",
     "Team 2 Player A": "B8 - 肖凌闻",
@@ -682,6 +750,7 @@
   {
     "groupround": "B4",
     "Match": "M33",
+    "Court": "6",
     "Team 1 Player A": "B1 - Tina",
     "Team 1 Player B": "B25 - Wendy Gao",
     "Team 2 Player A": "B16 - 罗野",
@@ -692,6 +761,7 @@
   {
     "groupround": "B4",
     "Match": "M34",
+    "Court": "4",
     "Team 1 Player A": "B7 - 王孟毅",
     "Team 1 Player B": "B17 - 毕咏梅",
     "Team 2 Player A": "B4 - William Tiong",
@@ -702,6 +772,7 @@
   {
     "groupround": "B4",
     "Match": "M35",
+    "Court": "5",
     "Team 1 Player A": "B5 - 红柳",
     "Team 1 Player B": "B23 - 孙燕玲",
     "Team 2 Player A": "B6 - 刘俐平",
@@ -712,6 +783,7 @@
   {
     "groupround": "B4",
     "Match": "M36",
+    "Court": "6",
     "Team 1 Player A": "B2 - liren",
     "Team 1 Player B": "B31 - 宁雅蕊",
     "Team 2 Player A": "B3 - yufei",
@@ -722,6 +794,7 @@
   {
     "groupround": "KOA_8",
     "Match": "M37",
+    "Court": "1",
     "Team 1 Player A": "A17 - 杨芳",
     "Team 1 Player B": "A23 - 王春明",
     "Team 2 Player A": "A11 - Jessie",
@@ -732,6 +805,7 @@
   {
     "groupround": "KOA_8",
     "Match": "M38",
+    "Court": "2",
     "Team 1 Player A": "A25 - Andy Zeng",
     "Team 1 Player B": "A20 - Roy Li",
     "Team 2 Player A": "A34 - 王轶男",
@@ -742,6 +816,7 @@
   {
     "groupround": "KOA_8",
     "Match": "M39",
+    "Court": "3",
     "Team 1 Player A": "A4 - Jason",
     "Team 1 Player B": "A5 - 王丽",
     "Team 2 Player A": "A12 - 叶政",
@@ -752,6 +827,7 @@
   {
     "groupround": "KOA_8",
     "Match": "M40",
+    "Court": "1",
     "Team 1 Player A": "A10 - 小李",
     "Team 1 Player B": "A22 - 邢世杰",
     "Team 2 Player A": "A24 - 陈天仪",
@@ -762,6 +838,7 @@
   {
     "groupround": "KOA_8",
     "Match": "M41",
+    "Court": "2",
     "Team 1 Player A": "A32 - 郑瑛",
     "Team 1 Player B": "A16 - 唐仪亮",
     "Team 2 Player A": "A29 - Helen",
@@ -772,6 +849,7 @@
   {
     "groupround": "KOA_8",
     "Match": "M42",
+    "Court": "3",
     "Team 1 Player A": "A36 - 魏菲",
     "Team 1 Player B": "A3 - Dean Hunter",
     "Team 2 Player A": "A14 - Shirley",
@@ -782,6 +860,7 @@
   {
     "groupround": "KOA_4",
     "Match": "M43",
+    "Court": "1",
     "Team 1 Player A": "A7 - 王乃军",
     "Team 1 Player B": "A2 - 赵建勇",
     "Team 2 Player A": "A14 - Shirley",
@@ -792,6 +871,7 @@
   {
     "groupround": "KOA_4",
     "Match": "M44",
+    "Court": "2",
     "Team 1 Player A": "A6 - 郭庆",
     "Team 1 Player B": "A1 - Jingyan",
     "Team 2 Player A": "A32 - 郑瑛",
@@ -802,6 +882,7 @@
   {
     "groupround": "KOA_4",
     "Match": "M45",
+    "Court": "3",
     "Team 1 Player A": "A11 - Jessie",
     "Team 1 Player B": "A27 - 毛毛",
     "Team 2 Player A": "A24 - 陈天仪",
@@ -812,6 +893,7 @@
   {
     "groupround": "KOA_4",
     "Match": "M46",
+    "Court": "1",
     "Team 1 Player A": "A34 - 王轶男",
     "Team 1 Player B": "A9 - 张卫明",
     "Team 2 Player A": "A4 - Jason",
@@ -822,6 +904,7 @@
   {
     "groupround": "KOA_2",
     "Match": "M47",
+    "Court": "2",
     "Team 1 Player A": "A14 - Shirley",
     "Team 1 Player B": "A28 - 王雅峰",
     "Team 2 Player A": "A4 - Jason",
@@ -832,6 +915,7 @@
   {
     "groupround": "KOA_2",
     "Match": "M48",
+    "Court": "3",
     "Team 1 Player A": "A6 - 郭庆",
     "Team 1 Player B": "A1 - Jingyan",
     "Team 2 Player A": "A24 - 陈天仪",
@@ -842,6 +926,7 @@
   {
     "groupround": "KOA_Bronz",
     "Match": "M49",
+    "Court": "2",
     "Team 1 Player A": "A14 - Shirley",
     "Team 1 Player B": "A28 - 王雅峰",
     "Team 2 Player A": "A6 - 郭庆",
@@ -852,6 +937,7 @@
   {
     "groupround": "KOA_Gold",
     "Match": "M50",
+    "Court": "1",
     "Team 1 Player A": "A4 - Jason",
     "Team 1 Player B": "A5 - 王丽",
     "Team 2 Player A": "A24 - 陈天仪",
@@ -862,6 +948,7 @@
   {
     "groupround": "KOB_8",
     "Match": "M51",
+    "Court": "4",
     "Team 1 Player A": "B35 - Yanjun Qian",
     "Team 1 Player B": "B1 - Tina",
     "Team 2 Player A": "B15 - Jenny",
@@ -872,6 +959,7 @@
   {
     "groupround": "KOB_8",
     "Match": "M52",
+    "Court": "5",
     "Team 1 Player A": "B30 - Lily Sun",
     "Team 1 Player B": "B23 - 孙燕玲",
     "Team 2 Player A": "B34 - 张立成",
@@ -882,6 +970,7 @@
   {
     "groupround": "KOB_8",
     "Match": "M53",
+    "Court": "6",
     "Team 1 Player A": "B32 - 卓安",
     "Team 1 Player B": "B10 - 焦冬",
     "Team 2 Player A": "B33 - 高清代",
@@ -892,6 +981,7 @@
   {
     "groupround": "KOB_8",
     "Match": "M54",
+    "Court": "4",
     "Team 1 Player A": "B16 - 罗野",
     "Team 1 Player B": "B26 - 李燕",
     "Team 2 Player A": "B4 - William Tiong",
@@ -902,6 +992,7 @@
   {
     "groupround": "KOB_8",
     "Match": "M55",
+    "Court": "5",
     "Team 1 Player A": "B28 - Lisa Li",
     "Team 1 Player B": "B31 - 宁雅蕊",
     "Team 2 Player A": "B25 - Wendy Gao",
@@ -912,6 +1003,7 @@
   {
     "groupround": "KOB_8",
     "Match": "M56",
+    "Court": "6",
     "Team 1 Player A": "B2 - liren",
     "Team 1 Player B": "B18 - 马小吾",
     "Team 2 Player A": "B24 - 高超",
@@ -922,6 +1014,7 @@
   {
     "groupround": "KOB_4",
     "Match": "M57",
+    "Court": "4",
     "Team 1 Player A": "B19 - 云儿",
     "Team 1 Player B": "B17 - 毕咏梅",
     "Team 2 Player A": "B24 - 高超",
@@ -932,6 +1025,7 @@
   {
     "groupround": "KOB_4",
     "Match": "M58",
+    "Court": "5",
     "Team 1 Player A": "B13 - Cathy",
     "Team 1 Player B": "B12 - 赵伟英",
     "Team 2 Player A": "B25 - Wendy Gao",
@@ -942,6 +1036,7 @@
   {
     "groupround": "KOB_4",
     "Match": "M59",
+    "Court": "6",
     "Team 1 Player A": "B35 - Yanjun Qian",
     "Team 1 Player B": "B1 - Tina",
     "Team 2 Player A": "B4 - William Tiong",
@@ -952,6 +1047,7 @@
   {
     "groupround": "KOB_4",
     "Match": "M60",
+    "Court": "4",
     "Team 1 Player A": "B34 - 张立成",
     "Team 1 Player B": "B22 - 高清",
     "Team 2 Player A": "B32 - 卓安",
@@ -962,6 +1058,7 @@
   {
     "groupround": "KOB_2",
     "Match": "M61",
+    "Court": "5",
     "Team 1 Player A": "B19 - 云儿",
     "Team 1 Player B": "B17 - 毕咏梅",
     "Team 2 Player A": "B32 - 卓安",
@@ -972,6 +1069,7 @@
   {
     "groupround": "KOB_2",
     "Match": "M62",
+    "Court": "6",
     "Team 1 Player A": "B13 - Cathy",
     "Team 1 Player B": "B12 - 赵伟英",
     "Team 2 Player A": "B4 - William Tiong",
@@ -982,6 +1080,7 @@
   {
     "groupround": "KOB_Bronz",
     "Match": "M63",
+    "Court": "4",
     "Team 1 Player A": "B19 - 云儿",
     "Team 1 Player B": "B17 - 毕咏梅",
     "Team 2 Player A": "B4 - William Tiong",
@@ -992,6 +1091,7 @@
   {
     "groupround": "KOB_Gold",
     "Match": "M64",
+    "Court": "5",
     "Team 1 Player A": "B32 - 卓安",
     "Team 1 Player B": "B10 - 焦冬",
     "Team 2 Player A": "B13 - Cathy",
