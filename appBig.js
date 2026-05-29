@@ -196,7 +196,7 @@ async function start() {
   await loadMatches();   // 加载赛程
   await loadRanking();   // 加载排名
   showCurrentPage();     // 显示第一页
-  setInterval(nextPage, 5000); // 10秒翻页
+  setInterval(nextPage, 10000); // 10秒翻页
 }
 
 start();
