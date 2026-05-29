@@ -187,25 +187,7 @@ function nextPage() {
 }
 
 
-// 手动翻页按钮
-document.getElementById('nextBtn').onclick = nextPage;
-document.getElementById('prevBtn').onclick = () => {
-  currentIndex = (currentIndex - 1 + visiblePages.length) % visiblePages.length;
-  showCurrentPage();
-};
 
-
-// 键盘左右方向键翻页
-document.addEventListener('keydown', function(e) {
-  // 左箭头 ← 上一页
-  if (e.key === 'ArrowLeft') {
-    prevPage();
-  }
-  // 右箭头 → 下一页
-  if (e.key === 'ArrowRight') {
-    nextPage();
-  }
-});
 
 // ==========================
 // 启动系统
@@ -214,7 +196,7 @@ async function start() {
   await loadMatches();   // 加载赛程
   await loadRanking();   // 加载排名
   showCurrentPage();     // 显示第一页
-  //setInterval(nextPage, 5000); // 10秒翻页
+  setInterval(nextPage, 5000); // 10秒翻页
 }
 
 start();
