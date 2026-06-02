@@ -28,7 +28,7 @@ h1 {
   background: linear-gradient(90deg, #FF3C6C, #FFC107, #00E5FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 15px rgba(255,255,255,0.3);
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
   letter-spacing: 2px;
 }
 
@@ -40,36 +40,42 @@ h1 {
   border-radius: 24px;
   padding: 30px;
   box-shadow: 0 0 30px rgba(255, 60, 108, 0.2);
-  border: 2px solid rgba(255,255,255,0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
+  table-layout: fixed; /* ✅ 关键：6 列严格均分，不再被内容撑爆 */
 }
 
 /* 超鲜艳表头 */
 th {
-  font-size: 34px;
-  padding: 24px;
+  font-size: 30px; /* 原 34px，略调小 */
+  padding: 18px 8px; /* 原 24px，左右收窄 */
   background: linear-gradient(90deg, #FF3C6C, #FF5E57);
   color: #fff;
   font-weight: bold;
   border-radius: 16px;
-  box-shadow: 0 4px 10px rgba(255,60,108,0.3);
+  box-shadow: 0 4px 10px rgba(255, 60, 108, 0.3);
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 td {
-  font-size: 32px;
-  padding: 22px;
+  font-size: 28px; /* 原 32px，略调小 */
+  padding: 16px 8px; /* 原 22px，左右收窄到 8px */
   text-align: center;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  word-break: break-word; /* ✅ 长名字/英文自动换行，不溢出 */
+  overflow-wrap: break-word;
 }
 
 /* 高亮隔行色 */
 tbody tr:nth-child(odd) {
   background: rgba(255, 255, 255, 0.05);
 }
+
 tbody tr:nth-child(even) {
   background: rgba(255, 60, 108, 0.05);
 }
@@ -77,7 +83,6 @@ tbody tr:nth-child(even) {
 tbody tr:last-child td {
   border-bottom: none;
 }
-
 
 /* ========================================================================== */
 /* ✅ 只修改【比赛表格】的比分列字体为亮黄色，背景不变，排名表完全不受影响 */
@@ -117,10 +122,13 @@ tbody tr:last-child td {
 #KOB_4 td:nth-child(4),
 #KOB_2 td:nth-child(4),
 #KOB_Bronz td:nth-child(4),
-#KOB_Gold td:nth-child(4)
-{
-    color: #FFD700 !important; /* 亮黄色字体 */
+#KOB_Gold td:nth-child(4) {
+  color: #FFD700 !important; /* 亮黄色字体 */
 }
+
+/* ✅ 可选：让比分列(第4列)和 Court 列(第1列)窄一点，把空间留给名字列 */
+table col.col-court { width: 8%; }
+table col.col-score { width: 10%; }
 
 /* 底部翻页按钮 */
 .page-controls {

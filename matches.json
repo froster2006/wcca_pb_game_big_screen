@@ -89,7 +89,7 @@
   },
   {
     "Match #": "M9",
-    "groupround": "A2",
+    "groupround": "A1",
     "Court": "3",
     "Team 1 Player A": "A24 - Yang Fang",
     "Team 1 Player B": "A26 - 王 雅峰",
@@ -188,7 +188,7 @@
   },
   {
     "Match #": "M18",
-    "groupround": "A3",
+    "groupround": "A2",
     "Court": "3",
     "Team 1 Player A": "A16 - Xing shijie",
     "Team 1 Player B": "A27 - Xiao Lingwen",
@@ -287,7 +287,7 @@
   },
   {
     "Match #": "M27",
-    "groupround": "A4",
+    "groupround": "A3",
     "Court": "3",
     "Team 1 Player A": "A16 - Xing shijie",
     "Team 1 Player B": "A17 - Chen Jie",
@@ -738,7 +738,7 @@
   },
   {
     "Match #": "M68",
-    "groupround": "B3",
+    "groupround": "B2",
     "Court": "6",
     "Team 1 Player A": "B16 - Jiao Dong",
     "Team 1 Player B": "B27 - 李 青",
@@ -837,7 +837,7 @@
   },
   {
     "Match #": "M77",
-    "groupround": "B4",
+    "groupround": "B3",
     "Court": "6",
     "Team 1 Player A": "B16 - Jiao Dong",
     "Team 1 Player B": "B17 - Lin Linda",
