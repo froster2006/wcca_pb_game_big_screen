@@ -1,36 +1,36 @@
 ﻿Match #	groupround	Court	Team 1 Player A	Team 1 Player B	Team 2 Player A	Team 2 Player B	Score T1	Score T2
 M1	A1	1	A1 - 司 丽荣	A18 - 黄 Shelly	A2 - 哈 悦	A17 - Chen Jie	4	11
-M2	A1	2	A3 - Li Min	A5 - 由 军	A4 - Li Larry	A28 - 赵 Famei		
+M2	A1	2	A3 - Li Min	A5 - 由 军	A4 - Li Larry	A28 - 赵 Famei	0	0
 M3	A1	3	A6 - 崔 云平	A33 - Cao Jing	A7 - Yi Hongtao	A21 - 李 文	8	9
-M4	A1	4	A8 - 黄 伟	A22 - 叶 政	A9 - Guo Kai	A16 - Xing shijie		
-M5	A1	5	A10 - wang王 Li	A25 - 赵 建勇	A11 - 毛 佩雷	A12 - wu ben		
-M6	A1	6	A13 - Jia Yunying	A15 - 高 清	A14 - 黄 文哲	A32 - Huo Yang		
-M7	A1	1	A19 - Hu Kevin	A34 - 陈 冬娥	A20 - wang Yinan	A36 - Ye Bing	11	
-M8	A1	2	A23 - 刘 勇	A29 - Wang Dong yan	A31 - Ye Sabrina	A35 - Ye Zhaohui		
-M9	A1	3	A24 - Yang Fang	A26 - 王 雅峰	A27 - Xiao Lingwen	A30 - xu bujiang		
+M4	A1	4	A8 - 黄 伟	A22 - 叶 政	A9 - Guo Kai	A16 - Xing shijie	0	0
+M5	A1	5	A10 - wang王 Li	A25 - 赵 建勇	A11 - 毛 佩雷	A12 - wu ben	0	0
+M6	A1	6	A13 - Jia Yunying	A15 - 高 清	A14 - 黄 文哲	A32 - Huo Yang	0	0
+M7	A1	1	A19 - Hu Kevin	A34 - 陈 冬娥	A20 - wang Yinan	A36 - Ye Bing	0	0
+M8	A1	2	A23 - 刘 勇	A29 - Wang Dong yan	A31 - Ye Sabrina	A35 - Ye Zhaohui	0	0
+M9	A1	3	A24 - Yang Fang	A26 - 王 雅峰	A27 - Xiao Lingwen	A30 - xu bujiang	0	0
 M10	A2	1	A5 - 由 军	A34 - 陈 冬娥	A7 - Yi Hongtao	A28 - 赵 Famei	9	7
-M11	A2	2	A6 - 崔 云平	A31 - Ye Sabrina	A15 - 高 清	A21 - 李 文		
+M11	A2	2	A6 - 崔 云平	A31 - Ye Sabrina	A15 - 高 清	A21 - 李 文	0	0
 M12	A2	3	A2 - 哈 悦	A32 - Huo Yang	A9 - Guo Kai	A20 - wang Yinan	5	9
 M13	A2	4	A1 - 司 丽荣	A35 - Ye Zhaohui	A10 - wang王 Li	A22 - 叶 政	9	5
-M14	A2	5	A3 - Li Min	A4 - Li Larry	A8 - 黄 伟	A33 - Cao Jing		
-M15	A2	6	A11 - 毛 佩雷	A17 - Chen Jie	A29 - Wang Dong yan	A30 - xu bujiang		
-M16	A2	1	A12 - wu ben	A13 - Jia Yunying	A23 - 刘 勇	A26 - 王 雅峰		
-M17	A2	2	A14 - 黄 文哲	A25 - 赵 建勇	A19 - Hu Kevin	A24 - Yang Fang		
-M18	A2	3	A16 - Xing shijie	A27 - Xiao Lingwen	A18 - 黄 Shelly	A36 - Ye Bing		
-M19	A3	1	A9 - Guo Kai	A10 - wang王 Li	A33 - Cao Jing	A34 - 陈 冬娥		
-M20	A3	2	A8 - 黄 伟	A14 - 黄 文哲	A22 - 叶 政	A30 - xu bujiang		
-M21	A3	3	A15 - 高 清	A28 - 赵 Famei	A27 - Xiao Lingwen	A36 - Ye Bing		
+M14	A2	5	A3 - Li Min	A4 - Li Larry	A8 - 黄 伟	A33 - Cao Jing	0	0
+M15	A2	6	A11 - 毛 佩雷	A17 - Chen Jie	A29 - Wang Dong yan	A30 - xu bujiang	0	0
+M16	A2	1	A12 - wu ben	A13 - Jia Yunying	A23 - 刘 勇	A26 - 王 雅峰	0	0
+M17	A2	2	A14 - 黄 文哲	A25 - 赵 建勇	A19 - Hu Kevin	A24 - Yang Fang	0	0
+M18	A2	3	A16 - Xing shijie	A27 - Xiao Lingwen	A18 - 黄 Shelly	A36 - Ye Bing	0	0
+M19	A3	1	A9 - Guo Kai	A10 - wang王 Li	A33 - Cao Jing	A34 - 陈 冬娥	0	0
+M20	A3	2	A8 - 黄 伟	A14 - 黄 文哲	A22 - 叶 政	A30 - xu bujiang	0	0
+M21	A3	3	A15 - 高 清	A28 - 赵 Famei	A27 - Xiao Lingwen	A36 - Ye Bing	0	0
 M22	A3	4	A1 - 司 丽荣	A12 - wu ben	A7 - Yi Hongtao	A29 - Wang Dong yan	9	7
 M23	A3	5	A6 - 崔 云平	A26 - 王 雅峰	A20 - wang Yinan	A25 - 赵 建勇	9	3
-M24	A3	6	A3 - Li Min	A31 - Ye Sabrina	A13 - Jia Yunying	A35 - Ye Zhaohui		
+M24	A3	6	A3 - Li Min	A31 - Ye Sabrina	A13 - Jia Yunying	A35 - Ye Zhaohui	0	0
 M25	A3	1	A2 - 哈 悦	A4 - Li Larry	A23 - 刘 勇	A24 - Yang Fang	9	8
-M26	A3	2	A5 - 由 军	A11 - 毛 佩雷	A18 - 黄 Shelly	A19 - Hu Kevin		
-M27	A3	3	A16 - Xing shijie	A17 - Chen Jie	A21 - 李 文	A32 - Huo Yang		
-M28	A4	1	A21 - 李 文	A35 - Ye Zhaohui	A16 - Xing shijie	A30 - xu bujiang		
-M29	A4	2	A19 - Hu Kevin	A26 - 王 雅峰	A22 - 叶 政	A34 - 陈 冬娥		
-M30	A4	3	A15 - 高 清	A20 - wang Yinan	A13 - Jia Yunying	A33 - Cao Jing		
-M31	A4	4	A9 - Guo Kai	A24 - Yang Fang	A18 - 黄 Shelly	A28 - 赵 Famei		
-M32	A4	5	A10 - wang王 Li	A32 - Huo Yang	A8 - 黄 伟	A29 - Wang Dong yan		
+M26	A3	2	A5 - 由 军	A11 - 毛 佩雷	A18 - 黄 Shelly	A19 - Hu Kevin	0	0
+M27	A3	3	A16 - Xing shijie	A17 - Chen Jie	A21 - 李 文	A32 - Huo Yang	0	0
+M28	A4	1	A21 - 李 文	A35 - Ye Zhaohui	A16 - Xing shijie	A30 - xu bujiang	0	0
+M29	A4	2	A19 - Hu Kevin	A26 - 王 雅峰	A22 - 叶 政	A34 - 陈 冬娥	0	0
+M30	A4	3	A15 - 高 清	A20 - wang Yinan	A13 - Jia Yunying	A33 - Cao Jing	0	0
+M31	A4	4	A9 - Guo Kai	A24 - Yang Fang	A18 - 黄 Shelly	A28 - 赵 Famei	0	0
+M32	A4	5	A10 - wang王 Li	A32 - Huo Yang	A8 - 黄 伟	A29 - Wang Dong yan	0	0
 M33	A4	6	A1 - 司 丽荣	A25 - 赵 建勇	A11 - 毛 佩雷	A36 - Ye Bing	6	9
 M34	A4	1	A7 - Yi Hongtao	A17 - Chen Jie	A4 - Li Larry	A27 - Xiao Lingwen	9	5
 M35	A4	2	A5 - 由 军	A23 - 刘 勇	A6 - 崔 云平	A12 - wu ben	9	5
@@ -47,8 +47,8 @@ M45	KOA_4	3	A22 - 叶 政	A27 - Xiao Lingwen	A24 - Yang Fang	A33 - Cao Jing	9	11
 M46	KOA_4	4	A31 - Ye Sabrina	A10 - wang王 Li	A4 - Li Larry	A20 - wang Yinan	9	11
 M47	KOA_2	3	A14 - 黄 文哲	A34 - 陈 冬娥	A4 - Li Larry	A20 - wang Yinan	7	12
 M48	KOA_2	4	A1 - 司 丽荣	A6 - 崔 云平	A24 - Yang Fang	A33 - Cao Jing	9	12
-M49	KOA_Bronz	0	A14 - 黄 文哲	A34 - 陈 冬娥	A1 - 司 丽荣	A6 - 崔 云平		
-M50	KOA_Gold	0	A4 - Li Larry	A20 - wang Yinan	A24 - Yang Fang	A33 - Cao Jing		
+M49	KOA_Bronz	0	A14 - 黄 文哲	A34 - 陈 冬娥	A1 - 司 丽荣	A6 - 崔 云平	0	0
+M50	KOA_Gold	0	A4 - Li Larry	A20 - wang Yinan	A24 - Yang Fang	A33 - Cao Jing	0	0
 M51	B1	1	B1 - song Qingxia	B18 - Feng Yaru	B2 - jiang Lili y	B17 - Lin Linda	7	9
 M52	B1	2	B3 - lu 秀华	B5 - Li Sheng	B4 - 彭 飞	B28 - Lu Dongmei	3	9
 M53	B1	3	B6 - 郭 庆（左手）	B33 - 董 Grace	B7 - Rong Robert	B21 - Tian Wanting	9	3
@@ -97,5 +97,5 @@ M95	KOB_4	1	B28 - Lu Dongmei	B7 - Rong Robert	B14 - Chen Hairong	B29 - Zhao Hele
 M96	KOB_4	2	B19 - Zhan Lixin	B9 - Li Jingyan	B16 - Jiao Dong	B30 - Guo Sherry	9	11
 M97	KOB_2	5	B33 - 董 Grace	B26 - Liang Jessie	B16 - Jiao Dong	B30 - Guo Sherry	9	11
 M98	KOB_2	6	B17 - Lin Linda	B2 - jiang Lili y	B14 - Chen Hairong	B29 - Zhao Helen	11	9
-M99	KOB_Bronz	0	B33 - 董 Grace	B26 - Liang Jessie	B14 - Chen Hairong	B29 - Zhao Helen		
-M100	KOB_Gold	0	B16 - Jiao Dong	B30 - Guo Sherry	B17 - Lin Linda	B2 - jiang Lili y		
+M99	KOB_Bronz	0	B33 - 董 Grace	B26 - Liang Jessie	B14 - Chen Hairong	B29 - Zhao Helen	0	0
+M100	KOB_Gold	0	B16 - Jiao Dong	B30 - Guo Sherry	B17 - Lin Linda	B2 - jiang Lili y	0	0
