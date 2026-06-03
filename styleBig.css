@@ -63,7 +63,7 @@ th {
 }
 
 td {
-  font-size: 36px; /* 原 32px，略调小 */
+  font-size: 34px; /* 原 32px，略调小 */
   padding: 16px 8px; /* 原 22px，左右收窄到 8px */
   text-align: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
