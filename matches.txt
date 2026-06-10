@@ -57,7 +57,7 @@ M55	B1	5	B10 - Li Lisa	B25 - Zhan Lixin	B11 - Lin Linda	B12 - Gou James
 M56	B1	6	B13 - 陈 海容	B15 - 罗 野	B14 - 李 青	B32 - Wang Mengyi		
 M57	B1	4	B19 - Tian Wanting	B34 - 殷 亚兰	B20 - Feng Yaru	B36 - Song Qingxia		
 M58	B1	5	B23 - 王 旭	B29 - 焦 冬	B31 - 金 锦	B35 - Rong Robert		
-M59	B1	6	B24 - xia guibai	B26 - Qian Yanjun	B27 - 郭 庆	B30 - 董 Grace		
+M59	B1	6	B24 - Xia Guibai	B26 - Qian Yanjun	B27 - 郭 庆	B30 - 董 Grace		
 M60	B2	1	B7 - jiang 红柳	B28 - Yuan Jenny	B6 - 吕 秀华	B34 - 殷 亚兰		
 M61	B2	2	B15 - 罗 野	B21 - Zhao Helen	B5 - Yuan Stellven	B31 - 金 锦		
 M62	B2	3	B9 - Wang Cliff	B20 - Feng Yaru	B2 - Lu Dongmei	B32 - Wang Mengyi		
@@ -65,7 +65,7 @@ M63	B2	4	B10 - Li Lisa	B22 - Li Sheng	B1 - 张 卫明	B35 - Rong Robert
 M64	B2	5	B8 - Liang Jessie	B33 - 王 桐	B3 - Li Jingyan	B4 - 张 立诚		
 M65	B2	6	B29 - 焦 冬	B30 - 董 Grace	B11 - Lin Linda	B17 - 张 圣云		
 M66	B2	4	B23 - 王 旭	B26 - Qian Yanjun	B12 - Gou James	B13 - 陈 海容		
-M67	B2	5	B19 - Tian Wanting	B24 - xia guibai	B14 - 李 青	B25 - Zhan Lixin		
+M67	B2	5	B19 - Tian Wanting	B24 - Xia Guibai	B14 - 李 青	B25 - Zhan Lixin		
 M68	B2	6	B18 - 彭 飞	B36 - Song Qingxia	B16 - Guo Sherry	B27 - 郭 庆		
 M69	B3	1	B33 - 王 桐	B34 - 殷 亚兰	B9 - Wang Cliff	B10 - Li Lisa		
 M70	B3	2	B22 - Li Sheng	B30 - 董 Grace	B8 - Liang Jessie	B14 - 李 青		
@@ -73,13 +73,13 @@ M71	B3	3	B27 - 郭 庆	B36 - Song Qingxia	B15 - 罗 野	B28 - Yuan Jenny
 M72	B3	4	B7 - jiang 红柳	B29 - 焦 冬	B1 - 张 卫明	B12 - Gou James		
 M73	B3	5	B20 - Feng Yaru	B25 - Zhan Lixin	B6 - 吕 秀华	B26 - Qian Yanjun		
 M74	B3	6	B13 - 陈 海容	B35 - Rong Robert	B3 - Li Jingyan	B31 - 金 锦		
-M75	B3	4	B23 - 王 旭	B24 - xia guibai	B2 - Lu Dongmei	B4 - 张 立诚		
+M75	B3	4	B23 - 王 旭	B24 - Xia Guibai	B2 - Lu Dongmei	B4 - 张 立诚		
 M76	B3	5	B18 - 彭 飞	B19 - Tian Wanting	B5 - Yuan Stellven	B11 - Lin Linda		
 M77	B3	6	B21 - Zhao Helen	B32 - Wang Mengyi	B16 - Guo Sherry	B17 - 张 圣云		
 M78	B4	1	B21 - Zhao Helen	B35 - Rong Robert	B12 - Gou James	B30 - 董 Grace		
 M79	B4	2	B19 - Tian Wanting	B26 - Qian Yanjun	B22 - Li Sheng	B34 - 殷 亚兰		
 M80	B4	3	B15 - 罗 野	B20 - Feng Yaru	B13 - 陈 海容	B33 - 王 桐		
-M81	B4	4	B9 - Wang Cliff	B24 - xia guibai	B18 - 彭 飞	B28 - Yuan Jenny		
+M81	B4	4	B9 - Wang Cliff	B24 - Xia Guibai	B18 - 彭 飞	B28 - Yuan Jenny		
 M82	B4	5	B10 - Li Lisa	B32 - Wang Mengyi	B8 - Liang Jessie	B29 - 焦 冬		
 M83	B4	6	B1 - 张 卫明	B25 - Zhan Lixin	B16 - Guo Sherry	B36 - Song Qingxia		
 M84	B4	4	B7 - jiang 红柳	B17 - 张 圣云	B4 - 张 立诚	B27 - 郭 庆		
@@ -87,7 +87,7 @@ M85	B4	5	B5 - Yuan Stellven	B23 - 王 旭	B6 - 吕 秀华	B11 - Lin Linda
 M86	B4	6	B2 - Lu Dongmei	B31 - 金 锦	B3 - Li Jingyan	B14 - 李 青		
 M87	KOB_8	1	B5 - Yuan Stellven	B6 - 吕 秀华	B27 - 郭 庆	B28 - Yuan Jenny		
 M88	KOB_8	2	B7 - jiang 红柳	B8 - Liang Jessie	B25 - Zhan Lixin	B26 - Qian Yanjun		
-M89	KOB_8	3	B9 - Wang Cliff	B10 - Li Lisa	B23 - 王 旭	B24 - xia guibai		
+M89	KOB_8	3	B9 - Wang Cliff	B10 - Li Lisa	B23 - 王 旭	B24 - Xia Guibai		
 M90	KOB_8	4	B11 - Lin Linda	B12 - Gou James	B21 - Zhao Helen	B22 - Li Sheng		
 M91	KOB_8	5	B13 - 陈 海容	B14 - 李 青	B19 - Tian Wanting	B20 - Feng Yaru		
 M92	KOB_8	6	B15 - 罗 野	B16 - Guo Sherry	B17 - 张 圣云	B18 - 彭 飞		
