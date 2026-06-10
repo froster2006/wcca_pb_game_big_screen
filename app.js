@@ -162,12 +162,12 @@ const pages = [
     { id: "groupB_ranking_top", hide: false },
     { id: "groupB_ranking_middle", hide: false },
     { id: "groupB_ranking_bottom", hide: false },
-    { id: "KOA_8_page", hide: false },
-    { id: "KOB_8_page", hide: false },
-    { id: "KOA_4_page", hide: false },
-    { id: "KOA_2_page", hide: false },
-    { id: "KOA_Bronz_page", hide: false },
-    { id: "KOA_Gold_page", hide: false }
+    { id: "KOA_8_page", hide: true },
+    { id: "KOB_8_page", hide: true },
+    { id: "KOA_4_page", hide: true },
+    { id: "KOA_2_page", hide: true },
+    { id: "KOA_Bronz_page", hide: true },
+    { id: "KOA_Gold_page", hide: true }
 
 
 ];
