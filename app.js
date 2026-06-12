@@ -184,7 +184,7 @@ function genRanks(list) {
     ${list.map(item => `
     <tr>
       <td>${item.ranking}</td>
-      <td>${item.Player}</td>
+      <td><a href="#" onclick="showPlayerGames('${item.Player.replace(/'/g, "\\'")}'); return false;" style="cursor: pointer; color: #fff; text-decoration: underline;">${item.Player}</a></td>
       <td>${item["Total Points (Sorted)"]}</td>
       <td>${item["Net Score"]}</td>
     </tr>`).join('')}
