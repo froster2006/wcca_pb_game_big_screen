@@ -32,11 +32,11 @@ function generateMatchTable(matches) {
     ${matches.map(m => `
     <tr>
     <td>${m["Court"]}</td>
-      <td><a href="#" onclick="showPlayerGames('${m["Team 1 Player A"].replace(/'/g, "\\'")}'); return false;" style="cursor: pointer; color: #0066cc; text-decoration: underline;">${m["Team 1 Player A"]}</a></td>
-      <td><a href="#" onclick="showPlayerGames('${m["Team 1 Player B"].replace(/'/g, "\\'")}'); return false;" style="cursor: pointer; color: #0066cc; text-decoration: underline;">${m["Team 1 Player B"]}</a></td>
+      <td><a href="#" onclick="showPlayerGames('${m["Team 1 Player A"].replace(/'/g, "\\'")}'); return false;" style="cursor: pointer; color: #fff; text-decoration: underline;">${m["Team 1 Player A"]}</a></td>
+      <td><a href="#" onclick="showPlayerGames('${m["Team 1 Player B"].replace(/'/g, "\\'")}'); return false;" style="cursor: pointer; color: #fff; text-decoration: underline;">${m["Team 1 Player B"]}</a></td>
     <td>${m["Score T1"]}:${m["Score T2"]}</td>
-      <td><a href="#" onclick="showPlayerGames('${m["Team 2 Player A"].replace(/'/g, "\\'")}'); return false;" style="cursor: pointer; color: #0066cc; text-decoration: underline;">${m["Team 2 Player A"]}</a></td>
-      <td><a href="#" onclick="showPlayerGames('${m["Team 2 Player B"].replace(/'/g, "\\'")}'); return false;" style="cursor: pointer; color: #0066cc; text-decoration: underline;">${m["Team 2 Player B"]}</a></td>
+      <td><a href="#" onclick="showPlayerGames('${m["Team 2 Player A"].replace(/'/g, "\\'")}'); return false;" style="cursor: pointer; color: #fff; text-decoration: underline;">${m["Team 2 Player A"]}</a></td>
+      <td><a href="#" onclick="showPlayerGames('${m["Team 2 Player B"].replace(/'/g, "\\'")}'); return false;" style="cursor: pointer; color: #fff; text-decoration: underline;">${m["Team 2 Player B"]}</a></td>
 
     </tr>`).join('')}
   </table>`;
