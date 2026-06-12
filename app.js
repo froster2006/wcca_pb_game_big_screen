@@ -2,6 +2,9 @@
 // ==========================
 // 表格生成（完全按你要的字段）
 // ==========================
+let allMatches = []; // Store all matches globally for modal filtering
+let showKMatchesInModal = false; // hide/display rows where groupround starts with "K" in the modal
+
 function generateMatchTable(matches) {
   if (!matches || matches.length === 0) {
     return `<table>
@@ -29,14 +32,62 @@ function generateMatchTable(matches) {
     ${matches.map(m => `
     <tr>
     <td>${m["Court"]}</td>
-      <td>${m["Team 1 Player A"]}</td>
-      <td>${m["Team 1 Player B"]}</td>
+      <td><a href="#" onclick="showPlayerGames('${m["Team 1 Player A"].replace(/'/g, "\\'")}'); return false;" style="cursor: pointer; color: #0066cc; text-decoration: underline;">${m["Team 1 Player A"]}</a></td>
+      <td><a href="#" onclick="showPlayerGames('${m["Team 1 Player B"].replace(/'/g, "\\'")}'); return false;" style="cursor: pointer; color: #0066cc; text-decoration: underline;">${m["Team 1 Player B"]}</a></td>
     <td>${m["Score T1"]}:${m["Score T2"]}</td>
-      <td>${m["Team 2 Player A"]}</td>
-      <td>${m["Team 2 Player B"]}</td>
+      <td><a href="#" onclick="showPlayerGames('${m["Team 2 Player A"].replace(/'/g, "\\'")}'); return false;" style="cursor: pointer; color: #0066cc; text-decoration: underline;">${m["Team 2 Player A"]}</a></td>
+      <td><a href="#" onclick="showPlayerGames('${m["Team 2 Player B"].replace(/'/g, "\\'")}'); return false;" style="cursor: pointer; color: #0066cc; text-decoration: underline;">${m["Team 2 Player B"]}</a></td>
 
     </tr>`).join('')}
   </table>`;
+}
+
+// ==========================
+// Show player games in modal
+// ==========================
+function showPlayerGames(playerName) {
+  const playerMatches = allMatches.filter(m => {
+    if (!showKMatchesInModal && m.groupround && m.groupround.startsWith('K')) {
+      return false;
+    }
+    return m["Team 1 Player A"] === playerName || 
+      m["Team 1 Player B"] === playerName ||
+      m["Team 2 Player A"] === playerName ||
+      m["Team 2 Player B"] === playerName;
+  });
+
+  const modalContent = `
+    <h2 style="font-size: 34px; margin-bottom: 20px; color: #fff;"><span style="color: #00FF41; font-weight: bold;">${playerName}</span> - All Games</h2>
+    ${playerMatches.length === 0 ? '<p style="color: #fff; font-size: 34px;">No games found for this player.</p>' : `
+    <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+      <tr>
+        <th style="font-size: 34px; padding: 14px 8px; background: linear-gradient(90deg, #FF3C6C, #FF5E57); color: #fff; font-weight: bold; border-radius: 8px;">Court</th>
+        <th style="font-size: 34px; padding: 14px 8px; background: linear-gradient(90deg, #FF3C6C, #FF5E57); color: #fff; font-weight: bold; border-radius: 8px;">T1-A</th>
+        <th style="font-size: 34px; padding: 14px 8px; background: linear-gradient(90deg, #FF3C6C, #FF5E57); color: #fff; font-weight: bold; border-radius: 8px;">T1-B</th>
+        <th style="font-size: 34px; padding: 14px 8px; background: linear-gradient(90deg, #FF3C6C, #FF5E57); color: #fff; font-weight: bold; border-radius: 8px;">比分</th>
+        <th style="font-size: 34px; padding: 14px 8px; background: linear-gradient(90deg, #FF3C6C, #FF5E57); color: #fff; font-weight: bold; border-radius: 8px;">T2-A</th>
+        <th style="font-size: 34px; padding: 14px 8px; background: linear-gradient(90deg, #FF3C6C, #FF5E57); color: #fff; font-weight: bold; border-radius: 8px;">T2-B</th>
+      </tr>
+      ${playerMatches.map((m, idx) => `
+      <tr style="background: ${idx % 2 === 0 ? 'rgba(255, 255, 255, 0.05)' : 'rgba(255, 60, 108, 0.05)'};">
+        <td style="font-size: 34px; padding: 12px 8px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: #fff;">${m["Court"]}</td>
+        <td style="font-size: 34px; padding: 12px 8px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: ${m["Team 1 Player A"] === playerName ? '#00FF41' : '#fff'}; font-weight: ${m["Team 1 Player A"] === playerName ? 'bold' : 'normal'};">${m["Team 1 Player A"]}</td>
+        <td style="font-size: 34px; padding: 12px 8px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: ${m["Team 1 Player B"] === playerName ? '#00FF41' : '#fff'}; font-weight: ${m["Team 1 Player B"] === playerName ? 'bold' : 'normal'};">${m["Team 1 Player B"]}</td>
+        <td style="font-size: 34px; padding: 12px 8px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: #FFD700; font-weight: bold;">${m["Score T1"]}:${m["Score T2"]}</td>
+        <td style="font-size: 34px; padding: 12px 8px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: ${m["Team 2 Player A"] === playerName ? '#00FF41' : '#fff'}; font-weight: ${m["Team 2 Player A"] === playerName ? 'bold' : 'normal'};">${m["Team 2 Player A"]}</td>
+        <td style="font-size: 34px; padding: 12px 8px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: ${m["Team 2 Player B"] === playerName ? '#00FF41' : '#fff'}; font-weight: ${m["Team 2 Player B"] === playerName ? 'bold' : 'normal'};">${m["Team 2 Player B"]}</td>
+      </tr>`).join('')}
+    </table>
+    `}
+  `;
+
+  document.getElementById('playerModalContent').innerHTML = modalContent;
+  document.getElementById('playerModal').style.display = 'block';
+}
+
+// Close modal
+function closePlayerModal() {
+  document.getElementById('playerModal').style.display = 'none';
 }
 
 
@@ -48,6 +99,7 @@ async function loadMatches() {
   try {
     const r = await fetch("matches.json");
     const all = await r.json();
+    allMatches = all; // Store for modal filtering
 
     // 自动分组：A1、A2、A3、A4、B1、B2、B3、B4
     const A1 = all.filter(x => x.groupround === "A1");
