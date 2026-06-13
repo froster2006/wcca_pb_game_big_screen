@@ -50,35 +50,87 @@ function showPlayerGames(playerName) {
     if (!showKMatchesInModal && m.groupround && m.groupround.startsWith('K')) {
       return false;
     }
-    return m["Team 1 Player A"] === playerName || 
+    return m["Team 1 Player A"] === playerName ||
       m["Team 1 Player B"] === playerName ||
       m["Team 2 Player A"] === playerName ||
       m["Team 2 Player B"] === playerName;
   });
 
+  const groupedMatches = playerMatches.reduce((groups, match) => {
+    let round = match.groupround || 'Unknown';
+    if (/^A[1-4]$/.test(round)) {
+      round = 'A组循环赛';
+    } else if (/^B[1-4]$/.test(round)) {
+      round = 'B组循环赛';
+    }
+    if (!groups[round]) {
+      groups[round] = [];
+    }
+    groups[round].push(match);
+    return groups;
+  }, {});
+
+  const roundOrder = playerMatches
+    .map(m => {
+      let round = m.groupround || 'Unknown';
+      if (/^A[1-4]$/.test(round)) {
+        return 'A组循环赛';
+      }
+      if (/^B[1-4]$/.test(round)) {
+        return 'B组循环赛';
+      }
+      return round;
+    })
+    .filter((value, index, self) => self.indexOf(value) === index);
+
+  const roundDisplayMap = {
+    'A组循环赛': 'A组循环赛',
+    KOA_8: 'A组8强赛',
+    KOA_4: 'A组4强赛',
+    KOA_2: 'A组半决赛',
+    KOA_Bronz: 'A组三四名决赛',
+    KOA_Gold: 'A组决赛',
+
+    'B组循环赛': 'B组循环赛',
+    KOB_8: 'B组8强赛',
+    KOB_4: 'B组4强赛',
+    KOB_2: 'B组半决赛',
+    KOB_Bronz: 'B组三四名决赛',
+    KOB_Gold: 'B组决赛'
+  };
+
+  const renderTableForRound = (round, matches) => {
+    const displayRound = roundDisplayMap[round] || round;
+    return `
+    <div style="margin-bottom: 32px;">
+      <h3 style="font-size: 32px; margin: 0 0 18px; color: #fff; letter-spacing: 0.02em;">${displayRound}</h3>
+      <table style="width: 100%; border-collapse: collapse; table-layout: fixed; margin-bottom: 8px;">
+        <tr>
+          <th style="font-size: 34px; padding: 14px 8px; background: linear-gradient(90deg, #FF3C6C, #FF5E57); color: #fff; font-weight: bold; border-radius: 8px;">Court</th>
+          <th style="font-size: 34px; padding: 14px 8px; background: linear-gradient(90deg, #FF3C6C, #FF5E57); color: #fff; font-weight: bold; border-radius: 8px;">T1-A</th>
+          <th style="font-size: 34px; padding: 14px 8px; background: linear-gradient(90deg, #FF3C6C, #FF5E57); color: #fff; font-weight: bold; border-radius: 8px;">T1-B</th>
+          <th style="font-size: 34px; padding: 14px 8px; background: linear-gradient(90deg, #FF3C6C, #FF5E57); color: #fff; font-weight: bold; border-radius: 8px;">比分</th>
+          <th style="font-size: 34px; padding: 14px 8px; background: linear-gradient(90deg, #FF3C6C, #FF5E57); color: #fff; font-weight: bold; border-radius: 8px;">T2-A</th>
+          <th style="font-size: 34px; padding: 14px 8px; background: linear-gradient(90deg, #FF3C6C, #FF5E57); color: #fff; font-weight: bold; border-radius: 8px;">T2-B</th>
+        </tr>
+        ${matches.map((m, idx) => `
+        <tr style="background: ${idx % 2 === 0 ? 'rgba(255, 255, 255, 0.05)' : 'rgba(255, 60, 108, 0.05)'};">
+          <td style="font-size: 34px; padding: 12px 8px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: #fff;">${m["Court"]}</td>
+          <td style="font-size: 34px; padding: 12px 8px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: ${m["Team 1 Player A"] === playerName ? '#00FF41' : '#fff'}; font-weight: ${m["Team 1 Player A"] === playerName ? 'bold' : 'normal'};">${m["Team 1 Player A"]}</td>
+          <td style="font-size: 34px; padding: 12px 8px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: ${m["Team 1 Player B"] === playerName ? '#00FF41' : '#fff'}; font-weight: ${m["Team 1 Player B"] === playerName ? 'bold' : 'normal'};">${m["Team 1 Player B"]}</td>
+          <td style="font-size: 34px; padding: 12px 8px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: #FFD700; font-weight: bold;">${m["Score T1"]}:${m["Score T2"]}</td>
+          <td style="font-size: 34px; padding: 12px 8px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: ${m["Team 2 Player A"] === playerName ? '#00FF41' : '#fff'}; font-weight: ${m["Team 2 Player A"] === playerName ? 'bold' : 'normal'};">${m["Team 2 Player A"]}</td>
+          <td style="font-size: 34px; padding: 12px 8px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: ${m["Team 2 Player B"] === playerName ? '#00FF41' : '#fff'}; font-weight: ${m["Team 2 Player B"] === playerName ? 'bold' : 'normal'};">${m["Team 2 Player B"]}</td>
+        </tr>`).join('')}
+      </table>
+    </div>`;
+  };
+
+  const contentSections = roundOrder.map(round => renderTableForRound(round, groupedMatches[round]));
+
   const modalContent = `
     <h2 style="font-size: 34px; margin-bottom: 20px; color: #fff;"><span style="color: #00FF41; font-weight: bold;">${playerName}</span> - All Games</h2>
-    ${playerMatches.length === 0 ? '<p style="color: #fff; font-size: 34px;">No games found for this player.</p>' : `
-    <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
-      <tr>
-        <th style="font-size: 34px; padding: 14px 8px; background: linear-gradient(90deg, #FF3C6C, #FF5E57); color: #fff; font-weight: bold; border-radius: 8px;">Court</th>
-        <th style="font-size: 34px; padding: 14px 8px; background: linear-gradient(90deg, #FF3C6C, #FF5E57); color: #fff; font-weight: bold; border-radius: 8px;">T1-A</th>
-        <th style="font-size: 34px; padding: 14px 8px; background: linear-gradient(90deg, #FF3C6C, #FF5E57); color: #fff; font-weight: bold; border-radius: 8px;">T1-B</th>
-        <th style="font-size: 34px; padding: 14px 8px; background: linear-gradient(90deg, #FF3C6C, #FF5E57); color: #fff; font-weight: bold; border-radius: 8px;">比分</th>
-        <th style="font-size: 34px; padding: 14px 8px; background: linear-gradient(90deg, #FF3C6C, #FF5E57); color: #fff; font-weight: bold; border-radius: 8px;">T2-A</th>
-        <th style="font-size: 34px; padding: 14px 8px; background: linear-gradient(90deg, #FF3C6C, #FF5E57); color: #fff; font-weight: bold; border-radius: 8px;">T2-B</th>
-      </tr>
-      ${playerMatches.map((m, idx) => `
-      <tr style="background: ${idx % 2 === 0 ? 'rgba(255, 255, 255, 0.05)' : 'rgba(255, 60, 108, 0.05)'};">
-        <td style="font-size: 34px; padding: 12px 8px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: #fff;">${m["Court"]}</td>
-        <td style="font-size: 34px; padding: 12px 8px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: ${m["Team 1 Player A"] === playerName ? '#00FF41' : '#fff'}; font-weight: ${m["Team 1 Player A"] === playerName ? 'bold' : 'normal'};">${m["Team 1 Player A"]}</td>
-        <td style="font-size: 34px; padding: 12px 8px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: ${m["Team 1 Player B"] === playerName ? '#00FF41' : '#fff'}; font-weight: ${m["Team 1 Player B"] === playerName ? 'bold' : 'normal'};">${m["Team 1 Player B"]}</td>
-        <td style="font-size: 34px; padding: 12px 8px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: #FFD700; font-weight: bold;">${m["Score T1"]}:${m["Score T2"]}</td>
-        <td style="font-size: 34px; padding: 12px 8px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: ${m["Team 2 Player A"] === playerName ? '#00FF41' : '#fff'}; font-weight: ${m["Team 2 Player A"] === playerName ? 'bold' : 'normal'};">${m["Team 2 Player A"]}</td>
-        <td style="font-size: 34px; padding: 12px 8px; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); color: ${m["Team 2 Player B"] === playerName ? '#00FF41' : '#fff'}; font-weight: ${m["Team 2 Player B"] === playerName ? 'bold' : 'normal'};">${m["Team 2 Player B"]}</td>
-      </tr>`).join('')}
-    </table>
-    `}
+    ${playerMatches.length === 0 ? '<p style="color: #fff; font-size: 34px;">No games found for this player.</p>' : contentSections.join('')}
   `;
 
   document.getElementById('playerModalContent').innerHTML = modalContent;
@@ -127,7 +179,7 @@ async function loadMatches() {
 
 
     // 所有轮次
-    document.getElementById("groupARound1").innerHTML = generateMatchTable(A1);
+     document.getElementById("groupARound1").innerHTML = generateMatchTable(A1);
     document.getElementById("groupARound2").innerHTML = generateMatchTable(A2);
     document.getElementById("groupARound3").innerHTML = generateMatchTable(A3);
     document.getElementById("groupARound4").innerHTML = generateMatchTable(A4);
@@ -270,5 +322,3 @@ async function start() {
 }
 
 start();
-
-
