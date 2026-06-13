@@ -85,17 +85,17 @@ function showPlayerGames(playerName) {
 
   const roundDisplayMap = {
     'A组循环赛': 'A组循环赛',
-    KOA_8: 'A组8强赛',
-    KOA_4: 'A组4强赛',
+    KOA_8: 'A组淘汰赛第一轮',
+    KOA_4: 'A组淘汰赛第二轮',
     KOA_2: 'A组半决赛',
-    KOA_Bronz: 'A组三四名决赛',
+    KOA_Bronz: 'A组三四名比赛',
     KOA_Gold: 'A组决赛',
 
     'B组循环赛': 'B组循环赛',
-    KOB_8: 'B组8强赛',
-    KOB_4: 'B组4强赛',
+    KOB_8: 'B组淘汰赛第一轮',
+    KOB_4: 'B组淘汰赛第二轮',
     KOB_2: 'B组半决赛',
-    KOB_Bronz: 'B组三四名决赛',
+    KOB_Bronz: 'B组三四名比赛',
     KOB_Gold: 'B组决赛'
   };
 
