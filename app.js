@@ -206,7 +206,7 @@ async function loadMatches() {
 }
 
 // ==========================
-// ✅ 排名：自动拆 1-36 to 3 tables
+// ✅ 排名：单表显示所有排名
 // ==========================
 async function loadRanking() {
     const res = await fetch("ranking.json");
@@ -215,19 +215,11 @@ async function loadRanking() {
     const A = data.filter(x => x.group === "A");
     const B = data.filter(x => x.group === "B");
 
-    const A1 = A.slice(0, 12);   
-    const A2 = A.slice(12, 24); 
-    const A3 = A.slice(24, 36); 
-    const B1 = B.slice(0, 12);
-    const B2 = B.slice(12, 24);
-    const B3 = B.slice(24, 36);
+    const AAll = A.slice(0, 36);
+    const BAll = B.slice(0, 36);
 
-    document.getElementById("groupATotal1").innerHTML = genRanks(A1);
-    document.getElementById("groupATotal2").innerHTML = genRanks(A2);
-    document.getElementById("groupATotal3").innerHTML = genRanks(A3);
-    document.getElementById("groupBTotal1").innerHTML = genRanks(B1);
-    document.getElementById("groupBTotal2").innerHTML = genRanks(B2);
-    document.getElementById("groupBTotal3").innerHTML = genRanks(B3);
+    document.getElementById("groupATotal1").innerHTML = genRanks(AAll);
+    document.getElementById("groupBTotal1").innerHTML = genRanks(BAll);
 }
 
 function genRanks(list) {
@@ -261,11 +253,11 @@ const pages = [
     { id: "groupA4", hide: true },
     { id: "groupB4", hide: true },
     { id: "groupA_ranking_top", hide: false },
-    { id: "groupA_ranking_middle", hide: false },
-    { id: "groupA_ranking_bottom", hide: false },
+    { id: "groupA_ranking_middle", hide: true },
+    { id: "groupA_ranking_bottom", hide: true },
     { id: "groupB_ranking_top", hide: false },
-    { id: "groupB_ranking_middle", hide: false },
-    { id: "groupB_ranking_bottom", hide: false },
+    { id: "groupB_ranking_middle", hide: true },
+    { id: "groupB_ranking_bottom", hide: true },
     { id: "KOA_8_page", hide: false },
     { id: "KOB_8_page", hide: false },
     { id: "KOA_4_page", hide: false },
