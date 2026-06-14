@@ -84,7 +84,7 @@ M82	B4	5	B10 - Li Lisa	B32 - 王 孟毅	B8 - Liang Jessie	B29 - 焦 冬	4	11
 M83	B4	6	B1 - 张 卫明	B25 - 战 立欣	B16 - Guo Sherry	B36 - Song Emily	11	8
 M84	B4	4	B7 - Jiang 红柳	B17 - 张 圣云	B4 - 张 立诚	B27 - 郭 庆	11	
 M85	B4	5	B5 - Yuan Stellven	B23 - 王 旭	B6 - 吕 秀华	B11 - Lin Linda	11	6
-M86	B4	6	B2 - 吕 冬梅	B31 - 金 锦	B3 - Li Jingyan	B28 - Yuan Jenny	7	11
+M86	B4	6	B2 - 吕 冬梅	B31 - 金 锦	B3 - Li Jingyan	B14 - 李 青	7	11
 M87	KOB_8	1	B33 - 王 桐	B3 - Li Jingyan	B27 - 郭 庆	B2 - 吕 冬梅	15	10
 M88	KOB_8	2	B8 - Liang Jessie	B5 - Yuan Stellven	B30 - 董 Grace	B6 - 吕 秀华	15	6
 M89	KOB_8	3	B12 - Gou James	B7 - Jiang 红柳	B36 - Song Emily	B11 - Lin Linda	15	4
