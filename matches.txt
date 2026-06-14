@@ -1,101 +1,101 @@
 ﻿Match #	groupround	Court	Team 1 Player A	Team 1 Player B	Team 2 Player A	Team 2 Player B	Score T1	Score T2
-M1	A1	1	A1 - 王 雅峰	A18 - Li Larry	A2 - 王 丽	A17 - 叶 冰		
-M2	A1	2	A3 - 司 丽荣	A5 - Hu Kevin	A4 - 邢 世杰	A28 - 杨 芳		
-M3	A1	3	A6 - 李 文	A33 - 吴 大本	A7 - 黄 文哲	A21 - 哈 悦		
-M4	A1	4	A8 - 李 敏	A22 - 刘 勇	A9 - 易 洪涛	A16 - 肖 凌闻		
-M5	A1	5	A10 - 邓 雪梅	A25 - 崔 云平	A11 - 徐 步江	A12 - 霍 杨		
-M6	A1	6	A13 - 黄 Shelly	A15 - 高 清	A14 - Ye Sabrina	A32 - 黄 伟		
-M7	A1	1	A19 - 赵 发枚	A34 - Chen Jie	A20 - 王 轶男	A36 - 毛 佩雷		
-M8	A1	2	A23 - 陈 冬娥	A29 - 由 军	A31 - Coco Cao	A35 - Peter Ye		
-M9	A1	3	A24 - 贾 云英	A26 - 叶 政	A27 - 赵 建勇	A30 - 王 冬艳		
-M10	A2	1	A7 - 黄 文哲	A28 - 杨 芳	A6 - 李 文	A34 - Chen Jie		
-M11	A2	2	A15 - 高 清	A21 - 哈 悦	A5 - Hu Kevin	A31 - Coco Cao		
-M12	A2	3	A9 - 易 洪涛	A20 - 王 轶男	A2 - 王 丽	A32 - 黄 伟		
-M13	A2	4	A10 - 邓 雪梅	A22 - 刘 勇	A1 - 王 雅峰	A35 - Peter Ye		
-M14	A2	5	A8 - 李 敏	A33 - 吴 大本	A3 - 司 丽荣	A4 - 邢 世杰		
-M15	A2	6	A29 - 由 军	A30 - 王 冬艳	A11 - 徐 步江	A17 - 叶 冰		
-M16	A2	1	A23 - 陈 冬娥	A26 - 叶 政	A12 - 霍 杨	A13 - 黄 Shelly		
-M17	A2	2	A19 - 赵 发枚	A24 - 贾 云英	A14 - Ye Sabrina	A25 - 崔 云平		
-M18	A2	3	A18 - Li Larry	A36 - 毛 佩雷	A16 - 肖 凌闻	A27 - 赵 建勇		
-M19	A3	1	A33 - 吴 大本	A34 - Chen Jie	A9 - 易 洪涛	A10 - 邓 雪梅		
-M20	A3	2	A22 - 刘 勇	A30 - 王 冬艳	A8 - 李 敏	A14 - Ye Sabrina		
-M21	A3	3	A27 - 赵 建勇	A36 - 毛 佩雷	A15 - 高 清	A28 - 杨 芳		
-M22	A3	4	A7 - 黄 文哲	A29 - 由 军	A1 - 王 雅峰	A12 - 霍 杨		
-M23	A3	5	A20 - 王 轶男	A25 - 崔 云平	A6 - 李 文	A26 - 叶 政		
-M24	A3	6	A13 - 黄 Shelly	A35 - Peter Ye	A3 - 司 丽荣	A31 - Coco Cao		
-M25	A3	1	A23 - 陈 冬娥	A24 - 贾 云英	A2 - 王 丽	A4 - 邢 世杰		
-M26	A3	2	A18 - Li Larry	A19 - 赵 发枚	A5 - Hu Kevin	A11 - 徐 步江		
-M27	A3	3	A21 - 哈 悦	A32 - 黄 伟	A16 - 肖 凌闻	A17 - 叶 冰		
-M28	A4	1	A21 - 哈 悦	A35 - Peter Ye	A12 - 霍 杨	A30 - 王 冬艳		
-M29	A4	2	A19 - 赵 发枚	A26 - 叶 政	A22 - 刘 勇	A34 - Chen Jie		
-M30	A4	3	A15 - 高 清	A20 - 王 轶男	A13 - 黄 Shelly	A33 - 吴 大本		
-M31	A4	4	A9 - 易 洪涛	A24 - 贾 云英	A18 - Li Larry	A28 - 杨 芳		
-M32	A4	5	A10 - 邓 雪梅	A32 - 黄 伟	A8 - 李 敏	A29 - 由 军		
-M33	A4	6	A1 - 王 雅峰	A25 - 崔 云平	A16 - 肖 凌闻	A36 - 毛 佩雷		
-M34	A4	1	A7 - 黄 文哲	A17 - 叶 冰	A4 - 邢 世杰	A27 - 赵 建勇		
-M35	A4	2	A5 - Hu Kevin	A23 - 陈 冬娥	A6 - 李 文	A11 - 徐 步江		
-M36	A4	3	A2 - 王 丽	A31 - Coco Cao	A3 - 司 丽荣	A14 - Ye Sabrina		
-M37	KOA_8	1	A5 - Hu Kevin	A6 - 李 文	A27 - 赵 建勇	A28 - 杨 芳		
-M38	KOA_8	2	A7 - 黄 文哲	A8 - 李 敏	A25 - 崔 云平	A26 - 叶 政		
-M39	KOA_8	3	A9 - 易 洪涛	A10 - 邓 雪梅	A23 - 陈 冬娥	A24 - 贾 云英		
-M40	KOA_8	4	A11 - 徐 步江	A12 - 霍 杨	A21 - 哈 悦	A22 - 刘 勇		
-M41	KOA_8	5	A13 - 黄 Shelly	A14 - Ye Sabrina	A19 - 赵 发枚	A20 - 王 轶男		
-M42	KOA_8	6	A15 - 高 清	A16 - 肖 凌闻	A17 - 叶 冰	A18 - Li Larry		
-M43	KOA_4	1	A1 - 王 雅峰	A2 - 王 丽				
-M44	KOA_4	2	A3 - 司 丽荣	A4 - 邢 世杰				
-M45	KOA_4	3						
-M46	KOA_4	4						
-M47	KOA_2	3						
-M48	KOA_2	4						
-M49	KOA_Bronz	0						
-M50	KOA_Gold	0						
-M51	B1	1	B1 - 张 卫明	B18 - 彭 飞	B2 - 吕 冬梅	B17 - 张 圣云		
-M52	B1	2	B3 - Li Jingyan	B5 - Yuan Stellven	B4 - 张 立诚	B28 - Yuan Jenny		
-M53	B1	3	B6 - 吕 秀华	B33 - 王 桐	B7 - Jiang 红柳	B21 - Zhao Helen		
-M54	B1	4	B8 - Liang Jessie	B22 - 李 晟	B9 - Wang Cliff	B16 - Guo Sherry		
-M55	B1	5	B10 - Li Lisa	B25 - 战 立欣	B11 - Lin Linda	B12 - Gou James		
-M56	B1	6	B13 - 陈 海容	B15 - 罗 野	B14 - 李 青	B32 - 王 孟毅		
-M57	B1	4	B19 - 田 琬婷	B34 - 殷 亚兰	B20 - 冯 雅茹	B36 - Song Emily		
-M58	B1	5	B23 - 王 旭	B29 - 焦 冬	B31 - 金 锦	B35 - Rong Robert		
-M59	B1	6	B24 - 夏 桂柏	B26 - Mike Nie	B27 - 郭 庆	B30 - 董 Grace		
-M60	B2	1	B7 - Jiang 红柳	B28 - Yuan Jenny	B6 - 吕 秀华	B34 - 殷 亚兰		
-M61	B2	2	B15 - 罗 野	B21 - Zhao Helen	B5 - Yuan Stellven	B31 - 金 锦		
-M62	B2	3	B9 - Wang Cliff	B20 - 冯 雅茹	B2 - 吕 冬梅	B32 - 王 孟毅		
-M63	B2	4	B10 - Li Lisa	B22 - 李 晟	B1 - 张 卫明	B35 - Rong Robert		
-M64	B2	5	B8 - Liang Jessie	B33 - 王 桐	B3 - Li Jingyan	B4 - 张 立诚		
-M65	B2	6	B29 - 焦 冬	B30 - 董 Grace	B11 - Lin Linda	B17 - 张 圣云		
-M66	B2	4	B23 - 王 旭	B26 - Mike Nie	B12 - Gou James	B13 - 陈 海容		
-M67	B2	5	B19 - 田 琬婷	B24 - 夏 桂柏	B14 - 李 青	B25 - 战 立欣		
-M68	B2	6	B18 - 彭 飞	B36 - Song Emily	B16 - Guo Sherry	B27 - 郭 庆		
-M69	B3	1	B33 - 王 桐	B34 - 殷 亚兰	B9 - Wang Cliff	B10 - Li Lisa		
-M70	B3	2	B22 - 李 晟	B30 - 董 Grace	B8 - Liang Jessie	B14 - 李 青		
-M71	B3	3	B27 - 郭 庆	B36 - Song Emily	B15 - 罗 野	B28 - Yuan Jenny		
-M72	B3	4	B7 - Jiang 红柳	B29 - 焦 冬	B1 - 张 卫明	B12 - Gou James		
-M73	B3	5	B20 - 冯 雅茹	B25 - 战 立欣	B6 - 吕 秀华	B26 - Mike Nie		
-M74	B3	6	B13 - 陈 海容	B35 - Rong Robert	B3 - Li Jingyan	B31 - 金 锦		
-M75	B3	4	B23 - 王 旭	B24 - 夏 桂柏	B2 - 吕 冬梅	B4 - 张 立诚		
-M76	B3	5	B18 - 彭 飞	B19 - 田 琬婷	B5 - Yuan Stellven	B11 - Lin Linda		
-M77	B3	6	B21 - Zhao Helen	B32 - 王 孟毅	B16 - Guo Sherry	B17 - 张 圣云		
-M78	B4	1	B21 - Zhao Helen	B35 - Rong Robert	B12 - Gou James	B30 - 董 Grace		
-M79	B4	2	B19 - 田 琬婷	B26 - Mike Nie	B22 - 李 晟	B34 - 殷 亚兰		
-M80	B4	3	B15 - 罗 野	B20 - 冯 雅茹	B13 - 陈 海容	B33 - 王 桐		
-M81	B4	4	B9 - Wang Cliff	B24 - 夏 桂柏	B18 - 彭 飞	B28 - Yuan Jenny		
-M82	B4	5	B10 - Li Lisa	B32 - 王 孟毅	B8 - Liang Jessie	B29 - 焦 冬		
-M83	B4	6	B1 - 张 卫明	B25 - 战 立欣	B16 - Guo Sherry	B36 - Song Emily		
-M84	B4	4	B7 - Jiang 红柳	B17 - 张 圣云	B4 - 张 立诚	B27 - 郭 庆		
-M85	B4	5	B5 - Yuan Stellven	B23 - 王 旭	B6 - 吕 秀华	B11 - Lin Linda		
-M86	B4	6	B2 - 吕 冬梅	B31 - 金 锦	B3 - Li Jingyan	B14 - 李 青		
-M87	KOB_8	1	B5 - Yuan Stellven	B6 - 吕 秀华	B27 - 郭 庆	B28 - Yuan Jenny		
-M88	KOB_8	2	B7 - Jiang 红柳	B8 - Liang Jessie	B25 - 战 立欣	B26 - Mike Nie		
-M89	KOB_8	3	B9 - Wang Cliff	B10 - Li Lisa	B23 - 王 旭	B24 - 夏 桂柏		
-M90	KOB_8	4	B11 - Lin Linda	B12 - Gou James	B21 - Zhao Helen	B22 - 李 晟		
-M91	KOB_8	5	B13 - 陈 海容	B14 - 李 青	B19 - 田 琬婷	B20 - 冯 雅茹		
-M92	KOB_8	6	B15 - 罗 野	B16 - Guo Sherry	B17 - 张 圣云	B18 - 彭 飞		
-M93	KOB_4	5	B1 - 张 卫明	B2 - 吕 冬梅				
-M94	KOB_4	6	B3 - Li Jingyan	B4 - 张 立诚				
-M95	KOB_4	1						
-M96	KOB_4	2						
-M97	KOB_2	5						
-M98	KOB_2	6						
-M99	KOB_Bronz	0						
-M100	KOB_Gold	0						
+M1	A1	1	A1 - 王 雅峰	A18 - Li Larry	A2 - 王 丽	A17 - 叶 冰	11	3
+M2	A1	2	A3 - 司 丽荣	A5 - Hu Kevin	A4 - 邢 世杰	A28 - 杨 芳	8	4
+M3	A1	3	A6 - 李 文	A33 - 吴 大本	A7 - 黄 文哲	A21 - 哈 悦	11	5
+M4	A1	4	A8 - 李 敏	A22 - 刘 勇	A9 - 易 洪涛	A16 - 肖 凌闻	8	7
+M5	A1	5	A10 - 邓 雪梅	A25 - 崔 云平	A11 - 徐 步江	A12 - 霍 杨	11	4
+M6	A1	6	A13 - 黄 Shelly	A15 - 高 清	A14 - Ye Sabrina	A32 - 黄 伟	6	11
+M7	A1	1	A19 - 赵 发枚	A34 - Chen Jie	A20 - 王 轶男	A36 - 毛 佩雷	1	11
+M8	A1	2	A23 - 陈 冬娥	A29 - 由 军	A31 - Coco Cao	A35 - Peter Ye	6	6
+M9	A1	3	A24 - 贾 云英	A26 - 叶 政	A27 - 赵 建勇	A30 - 王 冬艳	3	11
+M10	A2	1	A7 - 黄 文哲	A28 - 杨 芳	A6 - 李 文	A34 - Chen Jie	10	8
+M11	A2	2	A15 - 高 清	A21 - 哈 悦	A5 - Hu Kevin	A31 - Coco Cao	9	11
+M12	A2	3	A9 - 易 洪涛	A20 - 王 轶男	A2 - 王 丽	A32 - 黄 伟	9	9
+M13	A2	4	A10 - 邓 雪梅	A22 - 刘 勇	A1 - 王 雅峰	A35 - Peter Ye	4	11
+M14	A2	5	A8 - 李 敏	A33 - 吴 大本	A3 - 司 丽荣	A4 - 邢 世杰	6	11
+M15	A2	6	A29 - 由 军	A30 - 王 冬艳	A11 - 徐 步江	A17 - 叶 冰	7	9
+M16	A2	1	A23 - 陈 冬娥	A26 - 叶 政	A12 - 霍 杨	A13 - 黄 Shelly	11	5
+M17	A2	2	A19 - 赵 发枚	A24 - 贾 云英	A14 - Ye Sabrina	A25 - 崔 云平	2	11
+M18	A2	3	A18 - Li Larry	A36 - 毛 佩雷	A16 - 肖 凌闻	A27 - 赵 建勇	2	11
+M19	A3	1	A33 - 吴 大本	A34 - Chen Jie	A9 - 易 洪涛	A10 - 邓 雪梅	11	6
+M20	A3	2	A22 - 刘 勇	A30 - 王 冬艳	A8 - 李 敏	A14 - Ye Sabrina	11	4
+M21	A3	3	A27 - 赵 建勇	A36 - 毛 佩雷	A15 - 高 清	A28 - 杨 芳	11	3
+M22	A3	4	A7 - 黄 文哲	A29 - 由 军	A1 - 王 雅峰	A12 - 霍 杨	6	10
+M23	A3	5	A20 - 王 轶男	A25 - 崔 云平	A6 - 李 文	A26 - 叶 政	11	2
+M24	A3	6	A13 - 黄 Shelly	A35 - Peter Ye	A3 - 司 丽荣	A31 - Coco Cao	4	11
+M25	A3	1	A23 - 陈 冬娥	A24 - 贾 云英	A2 - 王 丽	A4 - 邢 世杰	11	6
+M26	A3	2	A18 - Li Larry	A19 - 赵 发枚	A5 - Hu Kevin	A11 - 徐 步江	6	9
+M27	A3	3	A21 - 哈 悦	A32 - 黄 伟	A16 - 肖 凌闻	A17 - 叶 冰	11	5
+M28	A4	1	A21 - 哈 悦	A35 - Peter Ye	A12 - 霍 杨	A30 - 王 冬艳	11	4
+M29	A4	2	A19 - 赵 发枚	A26 - 叶 政	A22 - 刘 勇	A34 - Chen Jie	5	11
+M30	A4	3	A15 - 高 清	A20 - 王 轶男	A13 - 黄 Shelly	A33 - 吴 大本	11	5
+M31	A4	4	A9 - 易 洪涛	A24 - 贾 云英	A18 - Li Larry	A28 - 杨 芳	11	7
+M32	A4	5	A10 - 邓 雪梅	A32 - 黄 伟	A8 - 李 敏	A29 - 由 军	11	7
+M33	A4	6	A1 - 王 雅峰	A25 - 崔 云平	A16 - 肖 凌闻	A36 - 毛 佩雷	9	4
+M34	A4	1	A7 - 黄 文哲	A17 - 叶 冰	A4 - 邢 世杰	A27 - 赵 建勇		11
+M35	A4	2	A5 - Hu Kevin	A23 - 陈 冬娥	A6 - 李 文	A11 - 徐 步江	11	5
+M36	A4	3	A2 - 王 丽	A31 - Coco Cao	A3 - 司 丽荣	A14 - Ye Sabrina	9	10
+M37	KOA_8	1	A1 - 王 雅峰	A3 - 司 丽荣	A29 - 由 军	A6 - 李 文	11	9
+M38	KOA_8	2	A23 - 陈 冬娥	A5 - Hu Kevin	A2 - 王 丽	A18 - Li Larry	15	8
+M39	KOA_8	3	A31 - Coco Cao	A14 - Ye Sabrina	A11 - 徐 步江	A24 - 贾 云英	15	1
+M40	KOA_8	4	A21 - 哈 悦	A22 - 刘 勇	A36 - 毛 佩雷	A16 - 肖 凌闻	15	8
+M41	KOA_8	5	A30 - 王 冬艳	A33 - 吴 大本	A34 - Chen Jie	A15 - 高 清	15	13
+M42	KOA_8	6	A9 - 易 洪涛	A4 - 邢 世杰	A35 - Peter Ye	A10 - 邓 雪梅	7	15
+M43	KOA_4	1	A27 - 赵 建勇	A25 - 崔 云平	A35 - Peter Ye	A10 - 邓 雪梅	13	10
+M44	KOA_4	2	A20 - 王 轶男	A32 - 黄 伟	A30 - 王 冬艳	A33 - 吴 大本	15	8
+M45	KOA_4	3	A1 - 王 雅峰	A3 - 司 丽荣	A21 - 哈 悦	A22 - 刘 勇	8	15
+M46	KOA_4	4	A23 - 陈 冬娥	A5 - Hu Kevin	A31 - Coco Cao	A14 - Ye Sabrina	15	9
+M47	KOA_2	3	A27 - 赵 建勇	A25 - 崔 云平	A23 - 陈 冬娥	A5 - Hu Kevin	15	8
+M48	KOA_2	4	A20 - 王 轶男	A32 - 黄 伟	A21 - 哈 悦	A22 - 刘 勇	15	6
+M49	KOA_Bronz	0	A23 - 陈 冬娥	A5 - Hu Kevin	A21 - 哈 悦	A22 - 刘 勇	15	12
+M50	KOA_Gold	0	A27 - 赵 建勇	A25 - 崔 云平	A20 - 王 轶男	A32 - 黄 伟	8	15
+M51	B1	4	B1 - 张 卫明	B18 - 彭 飞	B2 - 吕 冬梅	B17 - 张 圣云	11	6
+M52	B1	5	B3 - Li Jingyan	B5 - Yuan Stellven	B4 - 张 立诚	B28 - Yuan Jenny	11	3
+M53	B1	6	B6 - 吕 秀华	B33 - 王 桐	B7 - Jiang 红柳	B21 - Zhao Helen	11	5
+M54	B1	1	B8 - Liang Jessie	B22 - 李 晟	B9 - Wang Cliff	B16 - Guo Sherry	11	2
+M55	B1	2	B10 - Li Lisa	B25 - 战 立欣	B11 - Lin Linda	B12 - Gou James	6	10
+M56	B1	3	B13 - 陈 海容	B15 - 罗 野	B14 - 李 青	B32 - 王 孟毅	9	6
+M57	B1	4	B19 - 田 琬婷	B34 - 殷 亚兰	B20 - 冯 雅茹	B36 - Song Emily	7	9
+M58	B1	5	B23 - 王 旭	B29 - 焦 冬	B31 - 金 锦	B35 - Rong Robert	10	10
+M59	B1	6	B24 - 夏 桂柏	B26 - Mike Nie	B27 - 郭 庆	B30 - 董 Grace	11	5
+M60	B2	1	B7 - Jiang 红柳	B28 - Yuan Jenny	B6 - 吕 秀华	B34 - 殷 亚兰	11	10
+M61	B2	2	B15 - 罗 野	B21 - Zhao Helen	B5 - Yuan Stellven	B31 - 金 锦	4	11
+M62	B2	3	B9 - Wang Cliff	B20 - 冯 雅茹	B2 - 吕 冬梅	B32 - 王 孟毅	9	8
+M63	B2	4	B10 - Li Lisa	B22 - 李 晟	B1 - 张 卫明	B35 - Rong Robert	8	11
+M64	B2	5	B8 - Liang Jessie	B33 - 王 桐	B3 - Li Jingyan	B4 - 张 立诚	8	11
+M65	B2	6	B29 - 焦 冬	B30 - 董 Grace	B11 - Lin Linda	B17 - 张 圣云	10	8
+M66	B2	4	B23 - 王 旭	B26 - Mike Nie	B12 - Gou James	B13 - 陈 海容	1	11
+M67	B2	5	B19 - 田 琬婷	B24 - 夏 桂柏	B14 - 李 青	B25 - 战 立欣	11	5
+M68	B2	6	B18 - 彭 飞	B36 - Song Emily	B16 - Guo Sherry	B27 - 郭 庆	2	11
+M69	B3	1	B33 - 王 桐	B34 - 殷 亚兰	B9 - Wang Cliff	B10 - Li Lisa	11	4
+M70	B3	2	B22 - 李 晟	B30 - 董 Grace	B8 - Liang Jessie	B14 - 李 青	5	9
+M71	B3	3	B27 - 郭 庆	B36 - Song Emily	B15 - 罗 野	B28 - Yuan Jenny	11	7
+M72	B3	4	B7 - Jiang 红柳	B29 - 焦 冬	B1 - 张 卫明	B12 - Gou James	11	9
+M73	B3	5	B20 - 冯 雅茹	B25 - 战 立欣	B6 - 吕 秀华	B26 - Mike Nie	11	1
+M74	B3	6	B13 - 陈 海容	B35 - Rong Robert	B3 - Li Jingyan	B31 - 金 锦	11	7
+M75	B3	4	B23 - 王 旭	B24 - 夏 桂柏	B2 - 吕 冬梅	B4 - 张 立诚	11	6
+M76	B3	5	B18 - 彭 飞	B19 - 田 琬婷	B5 - Yuan Stellven	B11 - Lin Linda	11	5
+M77	B3	6	B21 - Zhao Helen	B32 - 王 孟毅	B16 - Guo Sherry	B17 - 张 圣云	1	11
+M78	B4	1	B21 - Zhao Helen	B35 - Rong Robert	B12 - Gou James	B30 - 董 Grace	6	8
+M79	B4	2	B19 - 田 琬婷	B26 - Mike Nie	B22 - 李 晟	B34 - 殷 亚兰	6	9
+M80	B4	3	B15 - 罗 野	B20 - 冯 雅茹	B13 - 陈 海容	B33 - 王 桐	3	11
+M81	B4	4	B9 - Wang Cliff	B24 - 夏 桂柏	B18 - 彭 飞	B28 - Yuan Jenny	10	6
+M82	B4	5	B10 - Li Lisa	B32 - 王 孟毅	B8 - Liang Jessie	B29 - 焦 冬	4	11
+M83	B4	6	B1 - 张 卫明	B25 - 战 立欣	B16 - Guo Sherry	B36 - Song Emily	11	8
+M84	B4	4	B7 - Jiang 红柳	B17 - 张 圣云	B4 - 张 立诚	B27 - 郭 庆	11	
+M85	B4	5	B5 - Yuan Stellven	B23 - 王 旭	B6 - 吕 秀华	B11 - Lin Linda	11	6
+M86	B4	6	B2 - 吕 冬梅	B31 - 金 锦	B3 - Li Jingyan	B28 - Yuan Jenny	7	11
+M87	KOB_8	1	B33 - 王 桐	B3 - Li Jingyan	B27 - 郭 庆	B2 - 吕 冬梅	15	10
+M88	KOB_8	2	B8 - Liang Jessie	B5 - Yuan Stellven	B30 - 董 Grace	B6 - 吕 秀华	15	6
+M89	KOB_8	3	B12 - Gou James	B7 - Jiang 红柳	B36 - Song Emily	B11 - Lin Linda	15	4
+M90	KOB_8	4	B35 - Rong Robert	B34 - 殷 亚兰	B28 - Yuan Jenny	B18 - 彭 飞	6	7
+M91	KOB_8	5	B17 - 张 圣云	B19 - 田 琬婷	B16 - Guo Sherry	B20 - 冯 雅茹	15	11
+M92	KOB_8	6	B31 - 金 锦	B22 - 李 晟	B25 - 战 立欣	B23 - 王 旭	15	13
+M93	KOB_4	5	B24 - 夏 桂柏	B13 - 陈 海容	B31 - 金 锦	B22 - 李 晟	15	5
+M94	KOB_4	6	B29 - 焦 冬	B1 - 张 卫明	B17 - 张 圣云	B19 - 田 琬婷	11	15
+M95	KOB_4	1	B33 - 王 桐	B3 - Li Jingyan	B28 - Yuan Jenny	B18 - 彭 飞	15	7
+M96	KOB_4	2	B8 - Liang Jessie	B5 - Yuan Stellven	B12 - Gou James	B7 - Jiang 红柳	10	15
+M97	KOB_2	5	B24 - 夏 桂柏	B13 - 陈 海容	B12 - Gou James	B7 - Jiang 红柳	13	11
+M98	KOB_2	6	B17 - 张 圣云	B19 - 田 琬婷	B33 - 王 桐	B3 - Li Jingyan	14	16
+M99	KOB_Bronz	0	B12 - Gou James	B7 - Jiang 红柳	B17 - 张 圣云	B19 - 田 琬婷	14	16
+M100	KOB_Gold	0	B24 - 夏 桂柏	B13 - 陈 海容	B33 - 王 桐	B3 - Li Jingyan	6	15

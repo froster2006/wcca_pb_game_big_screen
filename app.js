@@ -3,7 +3,7 @@
 // 表格生成（完全按你要的字段）
 // ==========================
 let allMatches = []; // Store all matches globally for modal filtering
-let showKMatchesInModal = false; // hide/display rows where groupround starts with "K" in the modal
+let showKMatchesInModal = true; // hide/display rows where groupround starts with "K" in the modal
 
 function generateMatchTable(matches) {
   if (!matches || matches.length === 0) {
@@ -199,13 +199,13 @@ function genRanks(list) {
 // ==========================
 const pages = [
 
-    { id: "groupA1", hide: false },
-    { id: "groupB1", hide: false },
-    { id: "groupA2", hide: false },
+    { id: "groupA1", hide: true },
+    { id: "groupB1", hide: true },
+    { id: "groupA2", hide: true },
 
-    { id: "groupB2", hide: false },
-    { id: "groupA3", hide: false },
-    { id: "groupB3", hide: false },
+    { id: "groupB2", hide: true },
+    { id: "groupA3", hide: true },
+    { id: "groupB3", hide: true },
     { id: "groupA4", hide: false },
     { id: "groupB4", hide: false },
     { id: "groupA_ranking_top", hide: false },
@@ -214,12 +214,12 @@ const pages = [
     { id: "groupB_ranking_top", hide: false },
     { id: "groupB_ranking_middle", hide: false },
     { id: "groupB_ranking_bottom", hide: false },
-    { id: "KOA_8_page", hide: true },
-    { id: "KOB_8_page", hide: true },
-    { id: "KOA_4_page", hide: true },
-    { id: "KOA_2_page", hide: true },
-    { id: "KOA_Bronz_page", hide: true },
-    { id: "KOA_Gold_page", hide: true }
+    { id: "KOA_8_page", hide: false },
+    { id: "KOB_8_page", hide: false },
+    { id: "KOA_4_page", hide: false },
+    { id: "KOA_2_page", hide: false },
+    { id: "KOA_Bronz_page", hide: false },
+    { id: "KOA_Gold_page", hide: false }
 
 
 ];
