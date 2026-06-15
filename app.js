@@ -243,21 +243,17 @@ function genRanks(list) {
 // ==========================
 const pages = [
 
-    { id: "groupA1", hide: true },
-    { id: "groupB1", hide: true },
-    { id: "groupA2", hide: true },
+    { id: "groupA1", hide: false },
+    { id: "groupB1", hide: false },
+    { id: "groupA2", hide: false },
 
-    { id: "groupB2", hide: true },
-    { id: "groupA3", hide: true },
-    { id: "groupB3", hide: true },
-    { id: "groupA4", hide: true },
-    { id: "groupB4", hide: true },
+    { id: "groupB2", hide: false },
+    { id: "groupA3", hide: false },
+    { id: "groupB3", hide: false },
+    { id: "groupA4", hide: false },
+    { id: "groupB4", hide: false },
     { id: "groupA_ranking_top", hide: false },
-    { id: "groupA_ranking_middle", hide: true },
-    { id: "groupA_ranking_bottom", hide: true },
     { id: "groupB_ranking_top", hide: false },
-    { id: "groupB_ranking_middle", hide: true },
-    { id: "groupB_ranking_bottom", hide: true },
     { id: "KOA_8_page", hide: false },
     { id: "KOB_8_page", hide: false },
     { id: "KOA_4_page", hide: false },
@@ -275,6 +271,7 @@ function showCurrentPage() {
   document.querySelectorAll('.page').forEach(el => el.style.display = 'none');
   const page = document.getElementById(visiblePages[currentIndex].id);
   if (page) page.style.display = 'block';
+  updatePageMenuActive();
 }
 
 function nextPage() {
@@ -282,13 +279,75 @@ function nextPage() {
   showCurrentPage();
 }
 
+function prevPage() {
+  currentIndex = (currentIndex - 1 + visiblePages.length) % visiblePages.length;
+  showCurrentPage();
+}
+
+function goToPage(pageId) {
+  const index = visiblePages.findIndex(p => p.id === pageId);
+  if (index >= 0) {
+    currentIndex = index;
+    showCurrentPage();
+  }
+  togglePageMenu(false);
+}
+
+function togglePageMenu(show) {
+  const list = document.getElementById('pageMenuList');
+  const button = document.getElementById('pageMenuBtn');
+  if (!list || !button) return;
+  const isVisible = typeof show === 'boolean' ? show : !list.classList.contains('show');
+  list.classList.toggle('show', isVisible);
+  button.setAttribute('aria-expanded', isVisible.toString());
+}
+
+function buildPageMenu() {
+  const list = document.getElementById('pageMenuList');
+  if (!list) return;
+  list.innerHTML = '';
+  visiblePages.forEach((page, index) => {
+    const pageEl = document.getElementById(page.id);
+    const title = pageEl?.querySelector('h1')?.innerText || page.id;
+    const li = document.createElement('li');
+    const item = document.createElement('button');
+    item.type = 'button';
+    item.textContent = title;
+    item.className = index === currentIndex ? 'active' : '';
+    item.onclick = () => goToPage(page.id);
+    li.appendChild(item);
+    list.appendChild(li);
+  });
+}
+
+function updatePageMenuActive() {
+  const list = document.getElementById('pageMenuList');
+  if (!list) return;
+  Array.from(list.querySelectorAll('button')).forEach((btn, index) => {
+    btn.classList.toggle('active', index === currentIndex);
+  });
+}
 
 // 手动翻页按钮
 document.getElementById('nextBtn').onclick = nextPage;
-document.getElementById('prevBtn').onclick = () => {
-  currentIndex = (currentIndex - 1 + visiblePages.length) % visiblePages.length;
-  showCurrentPage();
-};
+document.getElementById('prevBtn').onclick = prevPage;
+
+const pageMenuBtn = document.getElementById('pageMenuBtn');
+if (pageMenuBtn) {
+  pageMenuBtn.onclick = () => togglePageMenu();
+}
+
+document.addEventListener('click', function(e) {
+  const menu = document.getElementById('pageMenuList');
+  const button = document.getElementById('pageMenuBtn');
+  if (!menu || !button) return;
+  if (menu.classList.contains('show') && !menu.contains(e.target) && e.target !== button) {
+    togglePageMenu(false);
+  }
+});
+
+// ==========================
+// 键盘左右方向键翻页
 
 
 // 键盘左右方向键翻页
@@ -309,6 +368,7 @@ document.addEventListener('keydown', function(e) {
 async function start() {
   await loadMatches();   // 加载赛程
   await loadRanking();   // 加载排名
+  buildPageMenu();       // 构建页面菜单
   showCurrentPage();     // 显示第一页
   //setInterval(nextPage, 5000); // 10秒翻页
 }

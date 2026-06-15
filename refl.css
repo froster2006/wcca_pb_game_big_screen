@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background: #0a0a18;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+/* 顶部比赛信息区 紧凑布局 */
+.match-info {
+    width: 100%;
+    max-width: 760px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 16px;
+    padding: 14px;
+    border: 2px solid #ffd700;
+}
+.info-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.team-row {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.time-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+    margin-top: 6px;
+}
+.info-item {
+    flex: 1;
+    min-width: 130px;
+}
+.info-item label {
+    display: block;
+    font-size: 14px;
+    color: #ffc107;
+    margin-bottom: 4px;
+}
+.info-item input,
+.info-item select {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    background: #1f2240;
+    color: #fff;
+}
+.countdown-box {
+    font-size: 30px;
+    color: #ff3c6c;
+    font-weight: 900;
+}
+.count-btn-group {
+    display: flex;
+    gap: 8px;
+}
+.small-btn {
+    padding: 6px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.start-count {
+    background: #00c853;
+    color: #000;
+}
+.reset-count {
+    background: #666;
+    color: #fff;
+}
+
+/* 计分区域 */
+.score-wrap {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.score-item {
+    width: 160px;
+    height: 220px;
+    background: linear-gradient(145deg, #1f2240, #111329);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #ffd700;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.15s ease;
+}
+.score-item:active {
+    transform: scale(0.96);
+    background: linear-gradient(145deg, #2d305c, #1a1d3d);
+}
+.score-num {
+    font-size: 120px;
+    font-weight: 900;
+    color: #ffd700;
+}
+.split {
+    font-size: 100px;
+    color: #fff;
+    font-weight: bold;
+    width: 24px;
+    text-align: center;
+}
+.tip-text {
+    color: #cccccc;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* 底部按钮组 */
+.bot-btn-group {
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+}
+.reset-btn {
+    padding: 14px 40px;
+    font-size: 24px;
+    background: #ff9500;
+    color: #000;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.end-btn {
+    padding: 14px 40px;
+    font-size: 24px;
+    background: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.reset-btn:active, .end-btn:active, .small-btn:active {
+    opacity: 0.8;
+}
+
+/* 弹窗通用样式 */
+.modal-mask {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.75);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+.modal-box {
+    background: #161a33;
+    border: 2px solid #ffd700;
+    border-radius: 16px;
+    padding: 24px;
+    width: 90%;
+    max-width: 420px;
+}
+.modal-title {
+    font-size:26px;
+    color:#ffd700;
+    text-align:center;
+    margin-bottom:20px;
+}
+.modal-text-row {
+    margin-bottom:14px;
+    font-size:18px;
+    color:#fff;
+}
+.modal-input-row {
+    margin-bottom:16px;
+}
+.modal-input-row label {
+    display:block;
+    font-size:18px;
+    margin-bottom:6px;
+    color:#fff;
+}
+.modal-input-row input {
+    width:100%;
+    padding:10px;
+    font-size:22px;
+    border-radius:8px;
+    border:none;
+    background:#24294d;
+    color:#fff;
+}
+.modal-btn-row {
+    display:flex;
+    gap:12px;
+    margin-top:24px;
+    justify-content:center;
+}
+.modal-confirm {
+    background:#00c853;
+    color:#000;
+}
+.modal-cancel {
+    background:#666;
+    color:#fff;
+}
+.modal-btn-row button {
+    padding:10px 30px;
+    font-size:20px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
