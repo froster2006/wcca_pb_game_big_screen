@@ -7,66 +7,64 @@
     <link rel="stylesheet" href="refl.css">
 </head>
 <body>
-    <!-- 顶部比赛信息区 紧凑压缩版 -->
-    <div class="match-info">
-        <!-- 第一行：场次下拉框 + 场地 -->
-        <div class="info-row">
-            <div class="info-item">
-                <label>场次</label>
-                <select id="roundName">
-                    <option value="">请选择场次</option>
-                    <option value="A组循环赛-第一轮">A组循环赛-第一轮</option>
-                    <option value="A组循环赛-第二轮">A组循环赛-第二轮</option>
-                    <option value="A组循环赛-第三轮">A组循环赛-第三轮</option>
-                    <option value="A组循环赛-第四轮">A组循环赛-第四轮</option>
-                    <option value="B组循环赛-第一轮">B组循环赛-第一轮</option>
-                    <option value="B组循环赛-第二轮">B组循环赛-第二轮</option>
-                    <option value="B组循环赛-第三轮">B组循环赛-第三轮</option>
-                    <option value="B组循环赛-第四轮">B组循环赛-第四轮</option>
-                    <option value="淘汰赛第一轮">淘汰赛第一轮</option>
-                    <option value="淘汰赛第二轮">淘汰赛第二轮</option>
-                    <option value="半决赛">半决赛</option>
-                    <option value="决赛">决赛</option>
-                    <option value="三四名决赛">三四名决赛</option>
-                </select>
-            </div>
-            <div class="info-item">
-                <label>场地(1-6)</label>
-                <input type="number" id="courtNum" min="1" max="6" placeholder="1">
-            </div>
+    <!-- 顶部比赛信息区 - 折叠面板 -->
+    <div class="folding-pane">
+        <div class="folding-header" id="match-info-toggle">
+            <span class="folding-arrow">▼</span>
+            <span class="folding-title">比赛信息</span>
         </div>
+        <div class="folding-content match-info" id="match-info-content">
+            <!-- 第一行：场次下拉框 + 场地 -->
+            <div class="info-row">
+                <div class="info-item">
+                    <label>场次</label>
+                    <select id="roundName">
+                        <option value="">请选择场次</option>
+                        <option value="A组循环赛-第一轮">A组循环赛-第一轮</option>
+                        <option value="A组循环赛-第二轮">A组循环赛-第二轮</option>
+                        <option value="A组循环赛-第三轮">A组循环赛-第三轮</option>
+                        <option value="A组循环赛-第四轮">A组循环赛-第四轮</option>
+                        <option value="B组循环赛-第一轮">B组循环赛-第一轮</option>
+                        <option value="B组循环赛-第二轮">B组循环赛-第二轮</option>
+                        <option value="B组循环赛-第三轮">B组循环赛-第三轮</option>
+                        <option value="B组循环赛-第四轮">B组循环赛-第四轮</option>
+                        <option value="淘汰赛第一轮">淘汰赛第一轮</option>
+                        <option value="淘汰赛第二轮">淘汰赛第二轮</option>
+                        <option value="半决赛">半决赛</option>
+                        <option value="决赛">决赛</option>
+                        <option value="三四名决赛">三四名决赛</option>
+                    </select>
+                </div>
+                <div class="info-item">
+                    <label>场地(1-6)</label>
+                    <input type="number" id="courtNum" min="1" max="6" placeholder="1">
+                </div>
+            </div>
 
-        <!-- 第二行：A队两名选手同一行 -->
-        <div class="team-row">
-            <div class="info-item">
-                <label>A队选手1</label>
-                <input type="text" id="teamA1" placeholder="选手A1">
-            </div>
-            <div class="info-item">
-                <label>A队选手2</label>
-                <input type="text" id="teamA2" placeholder="选手A2">
-            </div>
         </div>
-
-        <!-- 第三行：B队两名选手同一行 -->
-        <div class="team-row">
-            <div class="info-item">
-                <label>B队选手1</label>
-                <input type="text" id="teamB1" placeholder="选手B1">
-            </div>
-            <div class="info-item">
-                <label>B队选手2</label>
-                <input type="text" id="teamB2" placeholder="选手B2">
-            </div>
-        </div>
-
-        <!-- 第四行：剩余时间 + 计时按钮合并一行 -->
-        <div class="time-row">
-            <div class="countdown-box">剩余时间：<span id="timeText">15:00</span></div>
-            <div class="count-btn-group">
-                <button class="small-btn start-count" id="startTimer">开始计时</button>
-                <button class="small-btn reset-count" id="resetTimer">重置计时</button>
-            </div>
+    </div>
+    
+    <!-- 第二行：A队 -->
+    <div class="team-display">
+        <label>A队</label>
+        <span class="team-name" id="teamADisplay">选手A1 / 选手A2</span>
+        <span class="team-score-value" id="teamAScoreDisplay">0</span>
+        <span class="serve-indicator" id="teamAIndicator">🟢</span>
+    </div>
+    
+    <!-- 第三行：B队 -->
+    <div class="team-display">
+        <label>B队</label>
+        <span class="team-name" id="teamBDisplay">选手B1 / 选手B2</span>
+        <span class="team-score-value" id="teamBScoreDisplay">0</span>
+        <span class="serve-indicator" id="teamBIndicator">🟢</span>
+    </div>
+    <!-- 倒计时行 + 计分区 -->
+    <div class="time-row">
+        <div class="countdown-box">剩余时间：<span id="timeText">15:00</span></div>
+        <div class="count-btn-group">
+            <button class="small-btn start-count" id="startTimer">开始比赛</button>
+            <button class="small-btn reset-count" id="resetTimer">重置计时</button>
         </div>
     </div>
 
@@ -85,9 +83,7 @@
         </div>
     </div>
 
-    <div class="tip-text">
-        点击左侧数字加分｜点击右侧数字切换发球并交换比分
-    </div>
+
 
     <!-- 底部操作按钮 -->
     <div class="bot-btn-group">
@@ -95,21 +91,50 @@
         <button class="end-btn" id="endMatchBtn">比赛结束</button>
     </div>
 
+    <!-- 0. 开始比赛设置弹窗 -->
+    <div class="modal-mask" id="startGameModal">
+        <div class="modal-box">
+            <h3 class="modal-title">开始比赛</h3>
+            <div class="modal-text-row">请选择首发发球队伍</div>
+            <div class="team-start-row">
+                <div class="team-start-card">
+                    <div class="team-start-label">A队</div>
+                    <div class="team-start-name" id="teamAModalName">选手A1 / 选手A2</div>
+                    <button class="team-select-button active" data-team="A" id="teamAStart">发球</button>
+                </div>
+                <div class="team-start-card">
+                    <div class="team-start-label">B队</div>
+                    <div class="team-start-name" id="teamBModalName">选手B1 / 选手B2</div>
+                    <button class="team-select-button" data-team="B" id="teamBStart">发球</button>
+                </div>
+            </div>
+            <div class="modal-btn-row">
+                <button class="modal-cancel" id="startGameCancel">取消</button>
+                <button class="modal-confirm" id="startGameConfirm">开始比赛</button>
+            </div>
+        </div>
+    </div>
+
+
+
     <!-- 1. 比分手动设置弹窗Modal -->
     <div class="modal-mask" id="scoreModal">
         <div class="modal-box">
             <h3 class="modal-title">手动设置当前比分</h3>
             <div class="modal-input-row">
-                <label>发球方得分</label>
+                <label>Team A 分数</label>
                 <input type="number" id="inputServe" min="0" value="0">
             </div>
             <div class="modal-input-row">
-                <label>对方得分</label>
+                <label>Team B 分数</label>
                 <input type="number" id="inputOpp" min="0" value="0">
             </div>
             <div class="modal-input-row">
-                <label>发球轮次 (仅1或2)</label>
-                <input type="number" id="inputRound" min="1" max="2" value="2">
+                <label>发球队伍</label>
+                <div class="manual-serve-team-group">
+                    <button type="button" class="team-select-button active" id="manualTeamA">Team A</button>
+                    <button type="button" class="team-select-button" id="manualTeamB">Team B</button>
+                </div>
             </div>
             <div class="modal-btn-row">
                 <button class="modal-cancel" id="modalCancel">取消</button>

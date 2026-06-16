@@ -17,20 +17,16 @@ body {
 /* 顶部比赛信息区 紧凑布局 */
 .match-info {
     width: 100%;
-    max-width: 760px;
-    background: rgba(255,255,255,0.08);
-    border-radius: 16px;
-    padding: 14px;
-    border: 2px solid #ffd700;
+    padding: 0;
 }
-.info-row {
+.match-info .info-row {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 10px;
     align-items: center;
 }
-.team-row {
+.match-info .team-row {
     display: flex;
     gap: 10px;
     width: 100%;
@@ -41,20 +37,21 @@ body {
     justify-content: center;
     gap: 16px;
     width: 100%;
+    max-width: 760px;
     margin-top: 6px;
 }
-.info-item {
+.match-info .info-item {
     flex: 1;
     min-width: 130px;
 }
-.info-item label {
+.match-info .info-item label {
     display: block;
     font-size: 14px;
     color: #ffc107;
     margin-bottom: 4px;
 }
-.info-item input,
-.info-item select {
+.match-info .info-item input,
+.match-info .info-item select {
     width: 100%;
     padding: 8px 10px;
     font-size: 16px;
@@ -111,10 +108,22 @@ body {
     transform: scale(0.96);
     background: linear-gradient(145deg, #2d305c, #1a1d3d);
 }
+.score-item.locked {
+    opacity: 0.4;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.score-item.locked .score-num {
+    color: #888;
+}
 .score-num {
     font-size: 120px;
     font-weight: 900;
     color: #ffd700;
+}
+.small-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 .split {
     font-size: 100px;
@@ -224,4 +233,157 @@ body {
     border:none;
     border-radius:8px;
     cursor:pointer;
+}
+
+.team-start-row {
+    display: flex;
+    gap: 14px;
+    margin-top: 16px;
+}
+.team-start-card {
+    flex: 1;
+    background: rgba(255,255,255,0.08);
+    border: 2px solid rgba(255,215,0,0.4);
+    border-radius: 14px;
+    padding: 16px;
+    text-align: center;
+}
+.team-start-label {
+    color: #ffc107;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.team-start-name {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+.team-select-button {
+    width: 100%;
+    padding: 10px 0;
+    border: 2px solid #666;
+    border-radius: 10px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.team-select-button.active {
+    background: #00c853;
+    color: #000;
+    border-color: #00c853;
+}
+.team-select-button:not(.active):hover {
+    border-color: #fff;
+}
+
+/* 折叠面板样式 */
+.folding-pane {
+    width: 100%;
+    max-width: 760px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 16px;
+    border: 2px solid #ffd700;
+    overflow: hidden;
+}
+.folding-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    cursor: pointer;
+    user-select: none;
+    background: rgba(255,215,0,0.1);
+    transition: background 0.3s ease;
+}
+.folding-header:hover {
+    background: rgba(255,215,0,0.15);
+}
+.folding-arrow {
+    font-size: 18px;
+    color: #ffd700;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+.folding-pane.collapsed .folding-arrow {
+    transform: rotate(-90deg);
+}
+.folding-title {
+    font-size: 18px;
+    color: #ffd700;
+    font-weight: 600;
+}
+.folding-content {
+    padding: 14px 16px;
+    display: block;
+    animation: slideDown 0.3s ease forwards;
+}
+.folding-pane.collapsed .folding-content {
+    display: none;
+    animation: none;
+}
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 队伍显示样式 */
+.team-display {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgba(255,215,0,0.05);
+    border-radius: 8px;
+}
+.team-display label {
+    font-size: 14px;
+    color: #ffc107;
+    font-weight: 600;
+    min-width: 40px;
+}
+.team-name {
+    font-size: 16px;
+    color: #fff;
+}
+.team-score-value {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffd700;
+    margin-left: 10px;
+}
+.serve-indicator {
+    opacity: 0.25;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.serve-indicator.active {
+    opacity: 1;
+    transform: scale(1.1);
+}
+.manual-serve-team-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+.manual-serve-team-group .team-select-button {
+    flex: 1;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: 2px solid #666;
+    background: transparent;
+    color: #fff;
+}
+.manual-serve-team-group .team-select-button.active {
+    background: #00c853;
+    color: #000;
+    border-color: #00c853;
+}
+.manual-serve-team-group .team-select-button:not(.active):hover {
+    border-color: #fff;
 }
