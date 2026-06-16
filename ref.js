@@ -187,13 +187,13 @@ function renderServeIndicator() {
 teamAStart.addEventListener('click', () => {
     teamAStart.classList.add('active');
     teamBStart.classList.remove('active');
-    serveRound = 1;
+    serveTeam = 1;
 });
 
 teamBStart.addEventListener('click', () => {
     teamBStart.classList.add('active');
     teamAStart.classList.remove('active');
-    serveRound = 2;
+    serveTeam = 2;
 });
 
 startGameConfirm.addEventListener('click', () => {
@@ -208,10 +208,16 @@ startGameCancel.addEventListener('click', () => {
 
 // 打开手动设置比分弹窗
 openModalBtn.addEventListener('click', () => {
-    inputServe.value = team1Score;
-    inputOpp.value = team2Score;
-    inputRound.value = serveRound;
-
+    inputTeamA.value = team1Score;
+    inputTeamB.value = team2Score;
+    inputServeRound.value = serveRound;
+    if (serveTeam === 1) {
+        manualTeamA.classList.add('active');
+        manualTeamB.classList.remove('active');
+    } else {
+        manualTeamA.classList.remove('active');
+        manualTeamB.classList.add('active');
+    }
     scoreModal.style.display = 'flex';
 });
 
@@ -222,10 +228,16 @@ modalCancel.addEventListener('click', () => {
 
 // 比分弹窗确认更新
 modalConfirm.addEventListener('click', () => {
-    const s = parseInt(inputServe.value) || 0;
-    const o = parseInt(inputOpp.value) || 0;
+    const s = parseInt(inputTeamA.value) || 0;
+    const o = parseInt(inputTeamB.value) || 0;
+    const r = parseInt(inputServeRound.value) || 1;
+    const selectedServeTeam = manualTeamA.classList.contains('active') ? 1 : 2;
+
+    serveRound = r;
+    serveTeam = selectedServeTeam;
     team1Score = s;
     team2Score = o;
+
     scoreModal.style.display = 'none';
     clearInterval(timerInterval);
     timerInterval = null;

@@ -44,20 +44,20 @@
         </div>
     </div>
     
-    <!-- 第二行：A队 -->
-    <div class="team-display">
-        <label>A队</label>
-        <span class="team-name" id="teamADisplay">选手A1 / 选手A2</span>
-        <span class="team-score-value" id="teamAScoreDisplay">0</span>
-        <span class="serve-indicator" id="teamAIndicator">🟢</span>
-    </div>
-    
-    <!-- 第三行：B队 -->
-    <div class="team-display">
-        <label>B队</label>
-        <span class="team-name" id="teamBDisplay">选手B1 / 选手B2</span>
-        <span class="team-score-value" id="teamBScoreDisplay">0</span>
-        <span class="serve-indicator" id="teamBIndicator">🟢</span>
+    <!-- 队伍行：A队 与 B队 同一行 -->
+    <div class="team-row">
+        <div class="team-display">
+            <label>A队</label>
+            <span class="team-name" id="teamADisplay">选手A1 / 选手A2</span>
+            <span class="team-score-value" id="teamAScoreDisplay">0</span>
+            <span class="serve-indicator" id="teamAIndicator">🟢</span>
+        </div>
+        <div class="team-display">
+            <label>B队</label>
+            <span class="team-name" id="teamBDisplay">选手B1 / 选手B2</span>
+            <span class="team-score-value" id="teamBScoreDisplay">0</span>
+            <span class="serve-indicator" id="teamBIndicator">🟢</span>
+        </div>
     </div>
     <!-- 倒计时行 + 计分区 -->
     <div class="time-row">
@@ -123,16 +123,20 @@
             <h3 class="modal-title">手动设置当前比分</h3>
             <div class="modal-input-row">
                 <label>Team A 分数</label>
-                <input type="number" id="inputServe" min="0" value="0">
+                <input type="number" id="inputTeamA" min="0" value="0">
             </div>
             <div class="modal-input-row">
                 <label>Team B 分数</label>
-                <input type="number" id="inputOpp" min="0" value="0">
+                <input type="number" id="inputTeamB" min="0" value="0">
+            </div>
+            <div class="modal-input-row">
+                <label>发球轮</label>
+                <input type="number" id="inputServeRound" min="1" max="2" value="1">
             </div>
             <div class="modal-input-row">
                 <label>发球队伍</label>
                 <div class="manual-serve-team-group">
-                    <button type="button" class="team-select-button active" id="manualTeamA">Team A</button>
+                    <button type="button" class="team-select-button" id="manualTeamA">Team A</button>
                     <button type="button" class="team-select-button" id="manualTeamB">Team B</button>
                 </div>
             </div>
