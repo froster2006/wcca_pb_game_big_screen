@@ -27,6 +27,8 @@ const teamAModalName = document.getElementById('teamAModalName');
 const teamBModalName = document.getElementById('teamBModalName');
 const teamAScoreDisplay = document.getElementById('teamAScoreDisplay');
 const teamBScoreDisplay = document.getElementById('teamBScoreDisplay');
+const serveScoreCard = document.getElementById('serveScore');
+const oppScoreCard = document.getElementById('oppScore');
 
 // 比分设置弹窗
 const scoreModal = document.getElementById('scoreModal');
@@ -58,6 +60,22 @@ function renderScore() {
     }
     roundDom.textContent = serveRound;
     renderServeIndicator();
+    renderScoreBoxes();
+}
+
+function renderScoreBoxes() {
+    if (!serveScoreCard || !oppScoreCard) return;
+
+    serveScoreCard.classList.remove('team-a-serves', 'team-b-serves', 'team-a-opponent', 'team-b-opponent');
+    oppScoreCard.classList.remove('team-a-serves', 'team-b-serves', 'team-a-opponent', 'team-b-opponent');
+
+    if (serveTeam === 1) {
+        serveScoreCard.classList.add('team-a-serves');
+        oppScoreCard.classList.add('team-a-opponent');
+    } else {
+        serveScoreCard.classList.add('team-b-serves');
+        oppScoreCard.classList.add('team-b-opponent');
+    }
 }
 
 // 渲染倒计时
@@ -84,12 +102,14 @@ manualTeamA.addEventListener('click', () => {
     manualTeamA.classList.add('active');
     manualTeamB.classList.remove('active');
     serveTeam = 1;
+    renderScore();
 });
 
 manualTeamB.addEventListener('click', () => {
     manualTeamB.classList.add('active');
     manualTeamA.classList.remove('active');
     serveTeam = 2;
+    renderScore();
 });
 
 function syncManualServeButtons() {
@@ -188,12 +208,14 @@ teamAStart.addEventListener('click', () => {
     teamAStart.classList.add('active');
     teamBStart.classList.remove('active');
     serveTeam = 1;
+    renderScore();
 });
 
 teamBStart.addEventListener('click', () => {
     teamBStart.classList.add('active');
     teamAStart.classList.remove('active');
     serveTeam = 2;
+    renderScore();
 });
 
 startGameConfirm.addEventListener('click', () => {
