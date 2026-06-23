@@ -27,6 +27,8 @@ const teamAModalName = document.getElementById('teamAModalName');
 const teamBModalName = document.getElementById('teamBModalName');
 const teamAScoreDisplay = document.getElementById('teamAScoreDisplay');
 const teamBScoreDisplay = document.getElementById('teamBScoreDisplay');
+const teamARow = document.getElementById('teamARow');
+const teamBRow = document.getElementById('teamBRow');
 const serveScoreCard = document.getElementById('serveScore');
 const oppScoreCard = document.getElementById('oppScore');
 
@@ -45,6 +47,40 @@ const endModal = document.getElementById('endModal');
 const endInfoText = document.getElementById('endInfoText');
 const endCancel = document.getElementById('endCancel');
 const endConfirm = document.getElementById('endConfirm');
+const backtrackBtn = document.getElementById('backtrackBtn');
+
+const stateHistory = [];
+
+function createState() {
+    return {
+        team1Score,
+        team2Score,
+        serveRound,
+        serveTeam
+    };
+}
+
+function pushState() {
+    stateHistory.push(createState());
+    updateBacktrackButton();
+}
+
+function updateBacktrackButton() {
+    if (backtrackBtn) {
+        backtrackBtn.disabled = stateHistory.length === 0;
+    }
+}
+
+function backtrack() {
+    if (!backtrackBtn || stateHistory.length === 0) return;
+    const prevState = stateHistory.pop();
+    team1Score = prevState.team1Score;
+    team2Score = prevState.team2Score;
+    serveRound = prevState.serveRound;
+    serveTeam = prevState.serveTeam;
+    renderScore();
+    updateBacktrackButton();
+}
 
 // 渲染比分
 function renderScore() {
@@ -76,6 +112,52 @@ function renderScoreBoxes() {
         serveScoreCard.classList.add('team-b-serves');
         oppScoreCard.classList.add('team-b-opponent');
     }
+}
+
+function handleTeamAClick() {
+    if (!gameStarted) return;
+    pushState();
+
+    if (serveTeam === 1) {
+        team1Score++;
+    } else {
+        if (serveRound === 1) {
+            serveRound = 2;
+        } else {
+            serveTeam = 1;
+            serveRound = 1;
+        }
+    }
+    renderScore();
+}
+
+function handleTeamBClick() {
+    if (!gameStarted) return;
+    pushState();
+
+    if (serveTeam === 2) {
+        team2Score++;
+    } else {
+        if (serveRound === 1) {
+            serveRound = 2;
+        } else {
+            serveTeam = 2;
+            serveRound = 1;
+        }
+    }
+    renderScore();
+}
+
+if (teamARow) {
+    teamARow.addEventListener('click', handleTeamAClick);
+}
+
+if (teamBRow) {
+    teamBRow.addEventListener('click', handleTeamBClick);
+}
+
+if (backtrackBtn) {
+    backtrackBtn.addEventListener('click', backtrack);
 }
 
 // 渲染倒计时
@@ -160,38 +242,50 @@ function enableScoreInteraction() {
     document.getElementById('serveScore').classList.remove('locked');
     document.getElementById('oppScore').classList.remove('locked');
     document.getElementById('serveRound').classList.remove('locked');
+    if (teamARow) teamARow.classList.remove('disabled');
+    if (teamBRow) teamBRow.classList.remove('disabled');
 }
 
 function disableScoreInteraction() {
     document.getElementById('serveScore').classList.add('locked');
     document.getElementById('oppScore').classList.add('locked');
     document.getElementById('serveRound').classList.add('locked');
+    if (teamARow) teamARow.classList.add('disabled');
+    if (teamBRow) teamBRow.classList.add('disabled');
 }
 
 
 // 1. 发球方加分
-document.getElementById('serveScore').addEventListener('click', () => {
-    if (!gameStarted) return;
-    if (serveTeam === 1) {
-        team1Score++;
-    } else {
-        team2Score++;
-    }
-    renderScore();
-});
+const serveScoreElement = document.getElementById('serveScore');
+if (serveScoreElement) {
+    serveScoreElement.addEventListener('click', () => {
+        if (!gameStarted) return;
+        pushState();
+        if (serveTeam === 1) {
+            team1Score++;
+        } else {
+            team2Score++;
+        }
+        renderScore();
+    });
+}
 
 // 2. 切换发球轮次：如果当前为2，则切换为1，否则切换为2
-document.getElementById('serveRound').addEventListener('click', () => {
-    if (!gameStarted) return;
-    if(serveRound === 2){
-        serveTeam = serveTeam === 1 ? 2 : 1; // 切换发球方
-        serveRound = 1;
-    }else{
-        serveRound = 2;
-    }
-    renderScore();
-    renderServeIndicator();
-});
+const serveRoundElement = document.getElementById('serveRound');
+if (serveRoundElement) {
+    serveRoundElement.addEventListener('click', () => {
+        if (!gameStarted) return;
+        pushState();
+        if(serveRound === 2){
+            serveTeam = serveTeam === 1 ? 2 : 1; // 切换发球方
+            serveRound = 1;
+        }else{
+            serveRound = 2;
+        }
+        renderScore();
+        renderServeIndicator();
+    });
+}
 
 const teamAIndicator = document.getElementById('teamAIndicator');
 const teamBIndicator = document.getElementById('teamBIndicator');

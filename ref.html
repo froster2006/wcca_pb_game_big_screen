@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- 顶部比赛信息区 - 折叠面板 -->
-    <div class="folding-pane">
+    <div class="folding-pane collapsed">
         <div class="folding-header" id="match-info-toggle">
             <span class="folding-arrow">▼</span>
             <span class="folding-title">比赛信息</span>
@@ -46,13 +46,13 @@
     
     <!-- 队伍行：A队 与 B队 同一行 -->
     <div class="team-row">
-        <div class="team-display">
+        <div class="team-display disabled" id="teamARow">
             <label>A队</label>
             <span class="team-name" id="teamADisplay">选手A1 / 选手A2</span>
             <span class="team-score-value" id="teamAScoreDisplay">0</span>
             <span class="serve-indicator" id="teamAIndicator">🟢</span>
         </div>
-        <div class="team-display">
+        <div class="team-display disabled" id="teamBRow">
             <label>B队</label>
             <span class="team-name" id="teamBDisplay">选手B1 / 选手B2</span>
             <span class="team-score-value" id="teamBScoreDisplay">0</span>
@@ -87,6 +87,7 @@
 
     <!-- 底部操作按钮 -->
     <div class="bot-btn-group">
+        <button class="reset-btn" id="backtrackBtn" disabled>回退比分</button>
         <button class="reset-btn" id="openModalBtn">手动设置比分</button>
         <button class="end-btn" id="endMatchBtn">比赛结束</button>
     </div>

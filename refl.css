@@ -294,6 +294,8 @@ body {
 
 /* 折叠面板样式 */
 .folding-pane {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     max-width: 760px;
     background: rgba(255,255,255,0.08);
@@ -417,6 +419,13 @@ body {
     padding: 8px 12px;
     border-radius: 18px;
     color: #fff;
+    cursor: pointer;
+    transition: opacity 0.2s ease, cursor 0.2s ease;
+}
+.team-row .team-display.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
 }
 .team-row .team-display:first-child {
     background: #1976d2;
